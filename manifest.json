@@ -2,12 +2,37 @@
   "name": "业余无线电A类模拟考试",
   "short_name": "HAM考试",
   "description": "业余无线电爱好者A类操作证模拟考试系统，683道真题练习",
+  "id": "https://bjdr69.github.io/ham-exam/",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#1976d2",
   "orientation": "portrait",
   "lang": "zh-CN",
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "首页与模式选择"
+    },
+    {
+      "src": "screenshots/exam.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "答题界面"
+    },
+    {
+      "src": "screenshots/categories.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "分类练习"
+    }
+  ],
   "icons": [
     {
       "src": "icon-192.png",
