@@ -1,7 +1,7 @@
 {
-  "name": "业余无线电A类模拟考试",
+  "name": "业余无线电A类模拟考试（HAM）",
   "short_name": "HAM考试",
-  "description": "业余无线电爱好者A类操作证模拟考试系统，683道真题练习",
+  "description": "业余无线电爱好者（火腿 HAM）A类操作证模拟考试：CRAC 2025版题库683道真题含答案解析，PWA离线可用",
   "id": "https://bjdr69.github.io/ham-exam/",
   "start_url": "./index.html",
   "scope": "./",
