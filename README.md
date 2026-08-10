@@ -58,6 +58,13 @@ node server.js
 
 ### 打包为 Android APK
 
+**已打包好的 APK（含全部答案解析，签名完整可直接安装）：**
+
+📥 **[下载 HAM考试 v1.0.0 APK](https://github.com/bjdr69/ham-exam/releases/download/v1.0.0/HAM.apk)**
+
+> 安装方法：手机开启「允许安装未知来源应用」→ 下载 APK → 点击安装。
+
+如需重新打包：
 1. 用浏览器打开线上地址（或本地服务地址）
 2. 访问 [PWABuilder](https://www.pwabuilder.com) 输入网址
 3. 选择 **Android** 平台打包下载
