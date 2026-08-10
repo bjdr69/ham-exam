@@ -1,5 +1,5 @@
 // Service Worker for HAM Exam — 离线缓存题库与页面
-const CACHE = 'ham-exam-v1';
+const CACHE = 'ham-exam-v2';
 const CORE = [
   './',
   './index.html',

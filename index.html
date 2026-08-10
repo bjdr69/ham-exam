@@ -124,6 +124,17 @@ body {
 .option.show-correct .letter { background: var(--correct); color: #fff; }
 .option .text { flex: 1; line-height: 1.4; font-size: 0.9rem; padding-top: 1px; }
 
+/* Explanation */
+.explanation {
+  margin-top: 12px; padding: 12px 14px;
+  background: var(--surface2); border-radius: var(--radius-sm);
+  border-left: 3px solid var(--primary);
+  font-size: 0.85rem; line-height: 1.6; color: var(--text);
+}
+.explanation .exp-label { font-weight: 700; color: var(--primary); margin-right: 6px; }
+.explanation.detail { margin-top: 8px; border-left-color: var(--text2); }
+.explanation.detail .exp-label { color: var(--text2); }
+
 /* Submit / Next */
 .exam-actions { margin-top: 10px; display: flex; gap: 8px; }
 .exam-actions .btn { flex: 1; padding: 10px; font-size: 0.9rem; }
@@ -239,6 +250,7 @@ body {
       <div class="question-text" id="questionText"></div>
       <div class="question-meta" id="questionMeta"></div>
       <div class="options" id="optionsContainer"></div>
+      <div class="explanation" id="examExplanation" style="display:none"></div>
     </div>
     <div class="exam-actions" id="examActions"></div>
   </div>
@@ -447,6 +459,8 @@ function renderQuestion() {
   const container = document.getElementById('optionsContainer');
   container.innerHTML = '';
   container.dataset.submitted = '';
+  const exp = document.getElementById('examExplanation');
+  if (exp) { exp.style.display = 'none'; exp.innerHTML = ''; }
   const letters = ['A', 'B', 'C', 'D'];
   exam.selected = new Set();
 
@@ -498,6 +512,17 @@ function handleOptionClick(opt, letter, q) {
   if (btn) btn.disabled = exam.selected.size === 0;
 }
 
+function showExplanation(q) {
+  const exp = document.getElementById('examExplanation');
+  if (!exp) return;
+  if (q && q.explanation) {
+    exp.innerHTML = `<span class="exp-label">答案解释</span>${q.explanation}`;
+    exp.style.display = 'block';
+  } else {
+    exp.style.display = 'none';
+  }
+}
+
 function submitSingle(letter, q) {
   const correct = letter === q.answer;
   const container = document.getElementById('optionsContainer');
@@ -511,6 +536,7 @@ function submitSingle(letter, q) {
   });
 
   recordAnswer(q, correct);
+  showExplanation(q);
   showNextButton();
 }
 
@@ -528,6 +554,7 @@ function doSubmitMulti(selected, q) {
   });
 
   recordAnswer(q, correct);
+  showExplanation(q);
   showNextButton();
 }
 
@@ -612,13 +639,15 @@ function nextGroup() {
 }
 
 function showQuestionDetail(q, correct) {
-  // Quick inline alert for now
   const letters = ['A','B','C','D'];
   const lines = [q.question, ''];
   letters.forEach(l => {
     const marker = q.answer.includes(l) ? '✓' : ' ';
     lines.push(`${marker} ${l}. ${q.options[l]}`);
   });
+  if (q.explanation) {
+    lines.push('', `—— 答案解释 ——`, q.explanation);
+  }
   alert(lines.join('\n'));
 }
 
