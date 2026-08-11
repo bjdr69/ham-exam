@@ -61,9 +61,11 @@ node server.js
 
 **推荐：全离线版 APK（内置全部 683 题，无需网络，推荐安装）**
 
-📥 **[下载 HAM考试 离线版 v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)**
+📥 **[下载 HAM考试 离线版 v1.0.4](https://github.com/bjdr69/ham-exam/releases/download/v1.0.4/HAM-exam-v1.0.4.apk)**
 
-| 特性 | 离线版 v1.0.3（推荐） | 旧版 v1.0.0（TWA） |
+> **v1.0.4 修复**：① 按 CRAC 官方题库修正 50 道题的分类边界错位，分类练习 1.1.1「无线电管理法规」恢复为 5 题，全部 51 分类计数与官方一致；② 修复 Android 16 上页面标题与系统状态栏叠加显示。
+
+| 特性 | 离线版 v1.0.4（推荐） | 旧版 v1.0.0（TWA） |
 |------|----------------------|--------------------|
 | 网络 | **100% 离线，永不联网** | 首次需联网加载题库 |
 | 题库 | **683 题全部内置 APK** | 靠 Service Worker 缓存 |
@@ -73,6 +75,7 @@ node server.js
 
 > 离线版把全部题目与答案解析直接打包进应用，断网、清缓存、重装后照常使用。
 > 包名 `io.github.bjdr69.hamexam`，若曾安装过旧离线版请先卸载。
+> 旧版本：[v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)
 
 **旧版 TWA（在线版，加载线上最新数据）**
 
