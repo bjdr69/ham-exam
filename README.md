@@ -59,13 +59,28 @@ node server.js
 
 ### 打包为 Android APK
 
-**已打包好的 APK（含全部答案解析，签名完整可直接安装）：**
+**推荐：全离线版 APK（内置全部 683 题，无需网络，推荐安装）**
+
+📥 **[下载 HAM考试 离线版 v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)**
+
+| 特性 | 离线版 v1.0.3（推荐） | 旧版 v1.0.0（TWA） |
+|------|----------------------|--------------------|
+| 网络 | **100% 离线，永不联网** | 首次需联网加载题库 |
+| 题库 | **683 题全部内置 APK** | 靠 Service Worker 缓存 |
+| 权限 | **0 权限** | 有通知权限 |
+| 体积 | 仅 181 KB | 约 1 MB |
+| targetSdk | 36（安卓 5.0~16） | 36 |
+
+> 离线版把全部题目与答案解析直接打包进应用，断网、清缓存、重装后照常使用。
+> 包名 `io.github.bjdr69.hamexam`，若曾安装过旧离线版请先卸载。
+
+**旧版 TWA（在线版，加载线上最新数据）**
 
 📥 **[下载 HAM考试 v1.0.0 APK](https://github.com/bjdr69/ham-exam/releases/download/v1.0.0/HAM.apk)**
 
 > 安装方法：手机开启「允许安装未知来源应用」→ 下载 APK → 点击安装。
 
-如需重新打包：
+如需用 PWABuilder 重新打包在线版：
 1. 用浏览器打开线上地址（或本地服务地址）
 2. 访问 [PWABuilder](https://www.pwabuilder.com) 输入网址
 3. 选择 **Android** 平台打包下载
