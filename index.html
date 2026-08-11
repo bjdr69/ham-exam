@@ -38,6 +38,7 @@
   --wrong: #c62828; --wrong-bg: #ffebee;
   --accent: #ff6f00;
   --radius: 12px; --radius-sm: 8px;
+  --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 @media (prefers-color-scheme: dark) {
@@ -58,7 +59,7 @@ body {
   min-height: 100dvh; -webkit-tap-highlight-color: transparent;
   overscroll-behavior: none;
 }
-.page { display: none; min-height: 100dvh; padding: 10px; padding-bottom: calc(10px + var(--safe-bottom)); }
+.page { display: none; min-height: 100dvh; padding: 10px; padding-top: calc(10px + var(--safe-top)); padding-bottom: calc(10px + var(--safe-bottom)); }
 .page.active { display: flex; flex-direction: column; }
 
 /* Header */
@@ -93,7 +94,7 @@ body {
 
 /* Exam top bar */
 .exam-bar {
-  position: sticky; top: 0; z-index: 10;
+  position: sticky; top: var(--safe-top, 0); z-index: 10;
   background: var(--surface); border-bottom: 1px solid var(--border);
   padding: 8px 12px; display: flex; align-items: center; gap: 10px;
   margin: -10px -10px 10px; width: calc(100% + 20px);
@@ -204,7 +205,7 @@ body {
 
 /* Theme toggle */
 .theme-toggle {
-  position: fixed; top: 12px; right: 12px; z-index: 100;
+  position: fixed; top: calc(12px + var(--safe-top)); right: 12px; z-index: 100;
   width: 36px; height: 36px; border-radius: 50%;
   background: var(--surface2); border: 1px solid var(--border);
   display: flex; align-items: center; justify-content: center;
