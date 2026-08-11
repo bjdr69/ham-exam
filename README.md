@@ -36,6 +36,12 @@
 - ✅ **离线单文件版**：`index.standalone.html` 把全部 683 题直接内嵌页面，打开即用、永不依赖网络/缓存
 - ✅ **深色 / 浅色主题**：跟随系统自动切换，可手动选择
 
+## 📱 应用截图
+
+| 首页 | 答题 | 分类练习 |
+|------|------|----------|
+| ![首页](screenshots/home.png) | ![答题](screenshots/exam.png) | ![分类练习](screenshots/categories.png) |
+
 ## 🚀 部署
 
 ### GitHub Pages
