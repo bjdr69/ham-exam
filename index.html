@@ -355,16 +355,62 @@ function saveState() {
 }
 
 // --- Init ---
+// 内嵌数据兜底：单文件版（index.standalone.html）会把题库直接写进页面，
+// 保证无网络 / Service Worker 失效时应用仍能启动。
+const EMBEDDED = (typeof window.__HAM_EMBEDDED__ !== 'undefined' && window.__HAM_EMBEDDED__)
+  ? window.__HAM_EMBEDDED__ : null;
+
+// 首次启动：尝试从网络拉最新题库，4 秒内无响应则放弃，
+// 回退到内嵌数据，保证界面绝不卡在加载。
+const BOOT_TIMEOUT = 4000;
+function bootData() {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error('网络超时')), BOOT_TIMEOUT);
+    fetch('data/questions.json')
+      .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+      .then(data => {
+        if (!Array.isArray(data) || data.length === 0) throw new Error('题库为空');
+        clearTimeout(timer);
+        resolve(true);
+      })
+      .catch(err => { clearTimeout(timer); reject(err); });
+  });
+}
 async function init() {
-  const [qRes, cRes] = await Promise.all([
-    fetch('data/questions.json'), fetch('data/categories.json')
-  ]);
-  questions = await qRes.json();
-  categories = await cRes.json();
+  // 内嵌数据已在页面里，网络只是"尝鲜"，永远不阻塞使用
+  if (EMBEDDED) {
+    questions = EMBEDDED.questions || [];
+    categories = EMBEDDED.categories || [];
+    try { await bootData(); } catch (e) { /* 网络不可用，已用内嵌数据 */ }
+    return;
+  }
+  // 无内嵌数据（在线版）：必须靠网络，但也加超时，失败显示提示而非永久卡住
+  try {
+    const [qRes, cRes] = await Promise.race([
+      Promise.all([fetch('data/questions.json'), fetch('data/categories.json')]),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('网络超时')), BOOT_TIMEOUT))
+    ]);
+    if (qRes.ok && cRes.ok) {
+      const q = await qRes.json();
+      const c = await cRes.json();
+      if (Array.isArray(q) && q.length > 0) { questions = q; categories = c; return; }
+    }
+    throw new Error('题库拉取失败');
+  } catch (e) {
+    console.warn('[HAM] 题库加载失败:', e && e.message);
+  }
+}
+function finishBoot() {
+  if (questions.length === 0) {
+    document.getElementById('totalCount').textContent = '加载失败';
+    document.getElementById('statScore').textContent = '!';
+    return;
+  }
   loadState();
   updateHomeStats();
   initTheme();
 }
+
 
 // --- Theme ---
 function initTheme() {
@@ -755,7 +801,7 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-init();
+init().then(finishBoot);
 </script>
 </body>
 </html>
