@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>业余无线电A类模拟考试（HAM）题库练习</title>
-<meta name="description" content="业余无线电爱好者（火腿 HAM）A类操作技术能力验证模拟考试 Web 应用。收录中国无线电协会业余无线电分会（CRAC）《业余无线电台操作技术能力验证题库（2025年版）》A类全部683道真题，每道题均配通俗易懂、便于记忆的答案解释。支持随机/顺序/分类练习、错题本、离线可用（PWA），可打包为 Android APK。">
+<meta name="description" content="业余无线电爱好者（火腿 HAM）A类操作技术能力验证模拟考试 Web 应用。收录中国无线电协会业余无线电分会（CRAC）《业余无线电台操作技术能力验证题库（2025年版）》A类全部683道真题，每道题均配通俗易懂、便于记忆的答案解释。支持随机/顺序/分类练习、多选练习、错题本、离线可用（PWA），可打包为 Android APK。">
 <meta name="keywords" content="业余无线电,火腿,HAM,业余电台,A类操作证,操作技术能力验证,模拟考试,题库,无线电执照,CRAC,题库练习,考试练习,radio,amateur radio,ham radio,license exam">
 <link rel="canonical" href="https://bjdr69.github.io/ham-exam/">
 <meta property="og:type" content="website">
@@ -254,6 +254,7 @@ body {
     <button class="btn btn-primary" onclick="startSequential()">📖 顺序练习</button>
     <button class="btn btn-accent" onclick="startRandom()">🎲 随机练习</button>
     <button class="btn btn-outline" onclick="showCategories()">📂 分类练习</button>
+    <button class="btn btn-outline" onclick="startMulti()">🔀 多选练习</button>
     <button class="btn btn-outline" onclick="showWrongBook()">❌ 错题本 (<span id="wrongCount">0</span>)</button>
     <button class="btn btn-outline btn-sm" onclick="confirmReset()" style="margin-top:24px;color:var(--wrong)">重置进度</button>
   </div>
@@ -505,6 +506,16 @@ function startWrongPractice() {
   showExam();
 }
 
+// --- Exam: Multi-select Practice (MC2/MC3/MC4) ---
+function startMulti() {
+  const multi = questions.filter(q => q.selectCount > 1);
+  if (multi.length === 0) return;
+  const shuffled = multi.sort(() => Math.random() - 0.5);
+  const picked = shuffled.slice(0, 25);
+  exam = { questions: picked, index: 0, score: 0, results: [], mode: 'multi', category: '' };
+  showExam();
+}
+
 // --- Show Exam ---
 function showExam() {
   showPage('pageExam');
@@ -692,6 +703,8 @@ function showResult() {
   } else if (exam.mode === 'wrong') {
     nextBtn.textContent = Object.keys(state.wrong).length > 0 ? '继续错题练习' : '错题已清空';
     nextBtn.disabled = Object.keys(state.wrong).length === 0;
+  } else if (exam.mode === 'multi') {
+    nextBtn.textContent = '再来一组多选';
   } else {
     nextBtn.textContent = '再来一组';
   }
@@ -703,6 +716,7 @@ function nextGroup() {
   if (exam.mode === 'sequential') startSequential();
   else if (exam.mode === 'wrong') startWrongPractice();
   else if (exam.mode === 'category') startRandom(exam.category);
+  else if (exam.mode === 'multi') startMulti();
   else startRandom();
 }
 

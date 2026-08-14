@@ -211,7 +211,7 @@
   "id": "MC1-0014",
   "category": "1.1.2",
   "categoryName": "无线电管理术语",
-  "type": "MC1",
+  "type": "MC2",
   "selectCount": 2,
   "question": "关于业余业务、卫星业余业务，下列说法正确的是：",
   "options": {
@@ -243,7 +243,7 @@
   "id": "MC1-0016",
   "category": "1.1.2",
   "categoryName": "无线电管理术语",
-  "type": "MC1",
+  "type": "MC2",
   "selectCount": 2,
   "question": "关于发射类别，下列说法正确的是：",
   "options": {
