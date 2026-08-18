@@ -356,6 +356,31 @@ function saveState() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
+// --- Weighted Pick ---
+// 抽题加权：优先出「从未练习过」的新题；练过的按距上次练习的时间恢复权重（隔越久权重越高）；
+// 错题额外加成。抽样用「随机数^(1/权重)」键排序，等价于加权不放回抽样，O(n log n)。
+const PICK = {
+  NEW: 5,          // 新题（从未做过）权重
+  RECENT_DAYS: 7,  // 时间衰减基数：做过的题每过 7 天权重 +1
+  RECENT_MAX: 4,   // 时间衰减上限：练过的题权重最高恢复到 1+4=5
+  WRONG_BONUS: 2   // 错题额外倍数
+};
+function pickWeight(pool, count, weightFn) {
+  if (count >= pool.length) return pool.slice();
+  return pool
+    .map(q => ({ q, key: Math.pow(Math.random(), 1 / weightFn(q)) }))
+    .sort((a, b) => b.key - a.key)
+    .slice(0, count)
+    .map(x => x.q);
+}
+function weightForPick(q) {
+  const a = state.answered[q.id];
+  if (!a) return PICK.NEW; // 新题：最高权重
+  const ageDays = (Date.now() - (a.time || 0)) / 864e5;
+  const recency = 1 + Math.min(ageDays / PICK.RECENT_DAYS, PICK.RECENT_MAX);
+  return recency * (state.wrong[q.id] ? PICK.WRONG_BONUS : 1);
+}
+
 // --- Init ---
 // 内嵌数据兜底：单文件版（index.standalone.html）会把题库直接写进页面，
 // 保证无网络 / Service Worker 失效时应用仍能启动。
@@ -471,26 +496,8 @@ function startRandom(cat) {
   let pool = cat ? questions.filter(q => q.category === cat) : [...questions];
   if (pool.length === 0) return;
 
-  // Weighted: wrong questions get 2x chance
-  const wrongIds = new Set(Object.keys(state.wrong));
-  const weighted = [];
-  pool.forEach(q => {
-    weighted.push(q);
-    if (wrongIds.has(q.id)) weighted.push(q); // double entry for wrong
-  });
-
-  // Shuffle and pick 25
-  const shuffled = weighted.sort(() => Math.random() - 0.5);
-  const picked = [];
-  const seen = new Set();
-  for (const q of shuffled) {
-    if (!seen.has(q.id)) { seen.add(q.id); picked.push(q); }
-    if (picked.length >= 25) break;
-  }
-  // If not enough, fill from remaining
-  if (picked.length < 25) {
-    pool.filter(q => !seen.has(q.id)).slice(0, 25 - picked.length).forEach(q => picked.push(q));
-  }
+  // Weighted: new questions first, wrong/recent get recency + wrong bonus
+  const picked = pickWeight(pool, Math.min(25, pool.length), weightForPick);
 
   exam = { questions: picked, index: 0, score: 0, results: [], mode: cat ? 'category' : 'random', category: cat || '' };
   showExam();
@@ -501,8 +508,8 @@ function startWrongPractice() {
   const wrongIds = Object.keys(state.wrong);
   if (wrongIds.length === 0) return;
   const pool = questions.filter(q => wrongIds.includes(q.id));
-  const shuffled = pool.sort(() => Math.random() - 0.5).slice(0, 25);
-  exam = { questions: shuffled, index: 0, score: 0, results: [], mode: 'wrong', category: '' };
+  const picked = pickWeight(pool, Math.min(25, pool.length), weightForPick);
+  exam = { questions: picked, index: 0, score: 0, results: [], mode: 'wrong', category: '' };
   showExam();
 }
 
@@ -510,8 +517,7 @@ function startWrongPractice() {
 function startMulti() {
   const multi = questions.filter(q => q.selectCount > 1);
   if (multi.length === 0) return;
-  const shuffled = multi.sort(() => Math.random() - 0.5);
-  const picked = shuffled.slice(0, 25);
+  const picked = pickWeight(multi, Math.min(25, multi.length), weightForPick);
   exam = { questions: picked, index: 0, score: 0, results: [], mode: 'multi', category: '' };
   showExam();
 }
