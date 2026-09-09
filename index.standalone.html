@@ -42,7 +42,7 @@
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #121212; --surface: #1e1e1e; --surface2: #2a2a2a;
     --text: #e0e0e0; --text2: #999; --border: #333;
     --primary: #64b5f6; --primary-light: #1a3a5c;
@@ -50,6 +50,23 @@
     --wrong: #ef5350; --wrong-bg: #3a1b1b;
     --accent: #ffb74d;
   }
+}
+/* 手动切换主题（右上角按钮）：data-theme 显式覆盖系统偏好 */
+:root[data-theme="dark"] {
+  --bg: #121212; --surface: #1e1e1e; --surface2: #2a2a2a;
+  --text: #e0e0e0; --text2: #999; --border: #333;
+  --primary: #64b5f6; --primary-light: #1a3a5c;
+  --correct: #66bb6a; --correct-bg: #1b3a1b;
+  --wrong: #ef5350; --wrong-bg: #3a1b1b;
+  --accent: #ffb74d;
+}
+:root[data-theme="light"] {
+  --bg: #f5f5f5; --surface: #fff; --surface2: #eee;
+  --text: #1a1a1a; --text2: #666; --border: #ddd;
+  --primary: #1976d2; --primary-light: #e3f2fd;
+  --correct: #2e7d32; --correct-bg: #e8f5e9;
+  --wrong: #c62828; --wrong-bg: #ffebee;
+  --accent: #ff6f00;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -494,27 +511,23 @@ function finishBoot() {
 
 
 // --- Theme ---
-function initTheme() {
-  const saved = localStorage.getItem('ham_theme');
-  const toggle = document.getElementById('themeToggle');
-  if (saved === 'light') {
-    document.documentElement.style.setProperty('color-scheme', 'light');
-    toggle.textContent = '☀️';
-  } else if (saved === 'dark') {
-    document.documentElement.style.setProperty('color-scheme', 'dark');
-    toggle.textContent = '🌙';
-  } else {
-    const dark = matchMedia('(prefers-color-scheme: dark)').matches;
-    toggle.textContent = dark ? '🌙' : '☀️';
-  }
+// 三态：无 data-theme = 跟随系统；'light'/'dark' = 用户显式选择（持久化，可被系统媒体查询兜底）
+function currentDark() {
+  const t = document.documentElement.dataset.theme;
+  return t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
 }
+function applyTheme(mode) {
+  const root = document.documentElement;
+  if (mode) root.dataset.theme = mode; else delete root.dataset.theme;
+  root.style.setProperty('color-scheme', mode || 'light dark');
+  const toggle = document.getElementById('themeToggle');
+  if (toggle) toggle.textContent = currentDark() ? '🌙' : '☀️';
+}
+function initTheme() { applyTheme(localStorage.getItem('ham_theme') || null); }
 document.getElementById('themeToggle').onclick = function() {
-  const cur = getComputedStyle(document.documentElement).colorScheme;
-  const dark = cur === 'dark' || matchMedia('(prefers-color-scheme: dark)').matches;
-  const next = dark ? 'light' : 'dark';
-  document.documentElement.style.setProperty('color-scheme', next);
+  const next = currentDark() ? 'light' : 'dark';
   localStorage.setItem('ham_theme', next);
-  this.textContent = next === 'dark' ? '🌙' : '☀️';
+  applyTheme(next);
 };
 
 // --- Navigation ---

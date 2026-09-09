@@ -69,9 +69,11 @@ node server.js
 
 **推荐：全离线版 APK（内置全部 683 题，无需网络，推荐安装）**
 
-📥 **[下载 HAM考试 离线版 v1.0.9](https://github.com/bjdr69/ham-exam/releases/download/v1.0.9/HAM-exam-v1.0.9.apk)**
+📥 **[下载 HAM考试 离线版 v1.0.10](https://github.com/bjdr69/ham-exam/releases/download/v1.0.10/HAM-exam-v1.0.10.apk)**
 
-> **v1.0.9 修复**：模拟考试成绩单错题行布局——行内「加入错题本」按钮继承 `.btn width:100%`，在 flex 行里把题目文字挤成左侧一两列窄条。按钮改 `width:auto`、文字列加 `min-width:0`，恢复正常排版。E2E 新增真实几何断言（文字区 >50% 行宽）防回归。与 v1.0.8 同签名密钥，**直接覆盖安装，模拟考试/错题本/进度全保留**。
+> **v1.0.10 修复**：右上角☀️/主题切换按钮失效——原实现只改 CSS `color-scheme` 属性（仅影响浏览器原生控件），应用配色令牌只由 `@media prefers-color-scheme` 决定，点击后页面不变色。现改为 `data-theme` 三态（跟随系统/显式浅色/显式深色），显式选择可覆盖系统偏好并持久化；E2E 新增真机行为断言（点按钮 body 背景即时变化）。
+>
+> **v1.0.9 修复**：模拟考试成绩单错题行布局——行内「加入错题本」按钮继承 `.btn width:100%`，在 flex 行里把题目文字挤成左侧一两列窄条。按钮改 `width:auto`、文字列加 `min-width:0`，恢复正常排版。E2E 新增真实几何断言（文字区 >50% 行宽）防回归。与 v1.0.5~1.0.9 同签名密钥，**直接覆盖安装，模拟考试/错题本/进度全保留**。
 >
 > **v1.0.8 更新**：新增「📝 模拟考试」——随机抽 40 题（32 单选 + 8 多选，分类轮转覆盖），限时 20 分钟（左下角倒计时，超时自动交卷），单向推进不可回翻（单选点选即锁定自动跳题，多选须确认）。每题 1 分、答对 30 题合格；多选错/漏一个答案判 0。成绩单列出错题编号（可看解析），错题由你逐题或一键选择是否加入错题本，考试全程不影响练习进度与积分。
 >
@@ -81,7 +83,7 @@ node server.js
 >
 > **v1.0.4 修复**：① 按 CRAC 官方题库修正 50 道题的分类边界错位，分类练习 1.1.1「无线电管理法规」恢复为 5 题，全部 51 分类计数与官方一致；② 修复 Android 16 上页面标题与系统状态栏叠加显示。
 
-| 特性 | 离线版 v1.0.9（推荐） | 旧版 v1.0.0（TWA） |
+| 特性 | 离线版 v1.0.10（推荐） | 旧版 v1.0.0（TWA） |
 |------|----------------------|--------------------|
 | 网络 | **100% 离线，永不联网** | 首次需联网加载题库 |
 | 题库 | **683 题全部内置 APK** | 靠 Service Worker 缓存 |
@@ -91,7 +93,7 @@ node server.js
 
 > 离线版把全部题目与答案解析直接打包进应用，断网、清缓存、重装后照常使用。
 > 包名 `io.github.bjdr69.hamexam`，若曾安装过旧离线版请先卸载（v1.0.5 更换了签名密钥，无法覆盖安装）。
-> 旧版本：[v1.0.8](https://github.com/bjdr69/ham-exam/releases/download/v1.0.8/HAM-exam-v1.0.8.apk) · [v1.0.7](https://github.com/bjdr69/ham-exam/releases/download/v1.0.7/HAM-exam-v1.0.7.apk) · [v1.0.5](https://github.com/bjdr69/ham-exam/releases/download/v1.0.5/HAM-exam-v1.0.5.apk) · [v1.0.4](https://github.com/bjdr69/ham-exam/releases/download/v1.0.4/HAM-exam-v1.0.4.apk) · [v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)
+> 旧版本：[v1.0.9](https://github.com/bjdr69/ham-exam/releases/download/v1.0.9/HAM-exam-v1.0.9.apk) · [v1.0.8](https://github.com/bjdr69/ham-exam/releases/download/v1.0.8/HAM-exam-v1.0.8.apk) · [v1.0.7](https://github.com/bjdr69/ham-exam/releases/download/v1.0.7/HAM-exam-v1.0.7.apk) · [v1.0.5](https://github.com/bjdr69/ham-exam/releases/download/v1.0.5/HAM-exam-v1.0.5.apk) · [v1.0.4](https://github.com/bjdr69/ham-exam/releases/download/v1.0.4/HAM-exam-v1.0.4.apk) · [v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)
 
 **旧版 TWA（在线版，加载线上最新数据）**
 

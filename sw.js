@@ -1,4 +1,5 @@
 // Service Worker for HAM Exam — 离线缓存题库与页面
+// v8：修复右上角主题切换按钮失效（只改 color-scheme 不改配色令牌），data-theme 三态生效。
 // v7：修复模拟考试成绩单错题行布局（按钮 width:100% 挤压文字成一列）。
 // v6：新增「模拟考试」功能（40题限时组卷）；换缓存名强制重拉新页面。
 // v5：题库选项顺序洗牌版（单选答案不再恒为 A）；换缓存名强制全量重拉新题库。
@@ -6,7 +7,7 @@
 // 之前 network-first 在 GitHub Pages 国内访问不稳定时，会让请求挂起，
 // 导致 TWA / 重开应用"卡在开始界面"。现改为缓存优先：任何请求先命中缓存
 // 立即返回，再在后台静默拉取最新版；网络失败/超时绝不影响已有功能。
-const CACHE = 'ham-exam-v7';
+const CACHE = 'ham-exam-v8';
 const CORE = [
   './',
   './index.html',
