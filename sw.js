@@ -1,10 +1,11 @@
 // Service Worker for HAM Exam — 离线缓存题库与页面
+// v6：新增「模拟考试」功能（40题限时组卷）；换缓存名强制重拉新页面。
 // v5：题库选项顺序洗牌版（单选答案不再恒为 A）；换缓存名强制全量重拉新题库。
 // v4：缓存优先 + 短超时网络更新。
 // 之前 network-first 在 GitHub Pages 国内访问不稳定时，会让请求挂起，
 // 导致 TWA / 重开应用"卡在开始界面"。现改为缓存优先：任何请求先命中缓存
 // 立即返回，再在后台静默拉取最新版；网络失败/超时绝不影响已有功能。
-const CACHE = 'ham-exam-v5';
+const CACHE = 'ham-exam-v6';
 const CORE = [
   './',
   './index.html',

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>业余无线电A类模拟考试（HAM）题库练习</title>
-<meta name="description" content="业余无线电爱好者（火腿 HAM）A类操作技术能力验证模拟考试 Web 应用。收录中国无线电协会业余无线电分会（CRAC）《业余无线电台操作技术能力验证题库（2025年版）》A类全部683道真题，每道题均配通俗易懂、便于记忆的答案解释。支持随机/顺序/分类练习、多选练习、错题本、离线可用（PWA），可打包为 Android APK。">
+<meta name="description" content="业余无线电爱好者（火腿 HAM）A类操作技术能力验证模拟考试 Web 应用。收录中国无线电协会业余无线电分会（CRAC）《业余无线电台操作技术能力验证题库（2025年版）》A类全部683道真题，每道题均配通俗易懂、便于记忆的答案解释。支持随机/顺序/分类练习、多选练习、错题本、模拟考试（40题限时20分钟、30题合格），离线可用（PWA），可打包为 Android APK。">
 <meta name="keywords" content="业余无线电,火腿,HAM,业余电台,A类操作证,操作技术能力验证,模拟考试,题库,无线电执照,CRAC,题库练习,考试练习,radio,amateur radio,ham radio,license exam">
 <link rel="canonical" href="https://bjdr69.github.io/ham-exam/">
 <meta property="og:type" content="website">
@@ -232,6 +232,20 @@ body {
 
 /* Scrollable area */
 .scroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+
+/* Mock exam: floating countdown (bottom-left) */
+.mock-timer {
+  position: fixed; left: 12px; bottom: calc(12px + var(--safe-bottom, 0px)); z-index: 120;
+  display: none; align-items: center;
+  background: var(--surface); color: var(--text);
+  border: 1.5px solid var(--primary); border-radius: 22px;
+  padding: 8px 14px; font-size: 1rem; font-weight: 700;
+  font-variant-numeric: tabular-nums; box-shadow: 0 2px 10px rgba(0,0,0,.18);
+}
+.mock-timer.danger { border-color: var(--wrong); color: var(--wrong); background: var(--wrong-bg); }
+.mock-on .exam-actions { padding-bottom: 56px; }
+.mock-wrong-main { flex: 1; cursor: pointer; }
+.mock-add-btn { flex-shrink: 0; padding: 6px 10px; font-size: 0.75rem; border-radius: 6px; }
 </style>
 </head>
 <body>
@@ -256,6 +270,7 @@ body {
     <button class="btn btn-outline" onclick="showCategories()">📂 分类练习</button>
     <button class="btn btn-outline" onclick="startMulti()">🔀 多选练习</button>
     <button class="btn btn-outline" onclick="showWrongBook()">❌ 错题本 (<span id="wrongCount">0</span>)</button>
+    <button class="btn btn-outline" onclick="startMockExam()">📝 模拟考试</button>
     <button class="btn btn-outline btn-sm" onclick="confirmReset()" style="margin-top:24px;color:var(--wrong)">重置进度</button>
   </div>
 </div>
@@ -325,6 +340,27 @@ body {
   </div>
 </div>
 
+<!-- Mock Result (成绩单) -->
+<div class="page" id="pageMockResult">
+  <div class="exam-bar">
+    <div class="back" onclick="goHome()">‹</div>
+    <div class="progress-text">模拟考试 · 成绩单</div>
+    <div class="score" id="mockResultBadge"></div>
+  </div>
+  <div class="scroll">
+    <div class="result-card">
+      <div class="result-score" id="mockResultScore">0</div>
+      <div class="result-detail" id="mockResultDetail"></div>
+      <div class="exam-actions" id="mockWrongActions"></div>
+    </div>
+    <div class="result-list" id="mockWrongList"></div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="startMockExam()">🔁 再考一次</button>
+      <button class="btn btn-outline" onclick="goHome()">返回首页</button>
+    </div>
+  </div>
+</div>
+
 <!-- Reset Modal -->
 <div class="modal-overlay" id="resetModal">
   <div class="modal">
@@ -336,6 +372,20 @@ body {
     </div>
   </div>
 </div>
+
+<!-- Mock Result Modal (交卷弹窗) -->
+<div class="modal-overlay" id="mockResultModal">
+  <div class="modal">
+    <h3 id="mockModalTitle">考试结束</h3>
+    <p id="mockModalSummary" style="font-size:1.05rem;color:var(--text)"></p>
+    <div class="btn-group" style="flex-direction:row">
+      <button class="btn btn-primary btn-sm" style="flex:1" onclick="closeMockModal()">查看错题明细</button>
+    </div>
+  </div>
+</div>
+
+<!-- Mock exam countdown (bottom-left) -->
+<div class="mock-timer" id="mockTimer">⏱ 20:00</div>
 
 <script>
 // 内嵌题库数据（离线单文件版）——由 tasks/build_standalone.js 生成
@@ -745,6 +795,13 @@ function showQuestionDetail(q, correct) {
 
 // --- Exit Exam ---
 function exitExam() {
+  if (mock && mock.active) {
+    if (!confirm('模拟考试进行中，退出将作废本次成绩，确定退出？')) return;
+    mock.active = false;
+    stopMockTimer();
+    goHome();
+    return;
+  }
   if (exam.results.length > 0 && exam.index < exam.questions.length) {
     if (!confirm('答题未完成，确定退出？')) return;
   }
@@ -815,6 +872,270 @@ function doReset() {
   saveState();
   closeReset();
   goHome();
+}
+
+// --- Mock Exam (模拟考试) ---
+// 组卷：32 单选 + 8 多选，按分类轮转抽题保证各分类都有机会被选中；
+// 单向推进不可回翻：单选点击即锁定并自动跳下一题，多选须「确认本题」；
+// 左下角 20 分钟倒计时（墙钟，防后台节流），到点自动交卷，未答按错题计；
+// 多选答案集合须与官方答案完全一致才得分（错一个判 0）；
+// 全程不触碰练习进度/错题本/积分（recordAnswer 旁路），错题仅在成绩单上由用户逐题或一键选择加入。
+const MOCK = {
+  SINGLE: 32, MULTI: 8, PASS: 30,
+  DURATION_MS: 20 * 60 * 1000,
+  ADVANCE_MS: 350
+};
+let mock = null;            // { questions, answers[], index, endTime, timerId, active, timedOut, outcome }
+let mockSelected = new Set();
+
+function shuffleArr(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// 分类轮转抽样：每个分类各出 1 题，不足再开第二轮，直到抽满 count
+function pickSpread(pool, count) {
+  const queues = {};
+  pool.forEach(q => { (queues[q.category] = queues[q.category] || []).push(q); });
+  Object.keys(queues).forEach(c => { queues[c] = shuffleArr(queues[c]); });
+  const cats = Object.keys(queues).sort();
+  const out = [];
+  let progressed = true;
+  while (out.length < count && progressed) {
+    progressed = false;
+    cats.forEach(c => {
+      if (out.length < count && queues[c].length) { out.push(queues[c].shift()); progressed = true; }
+    });
+  }
+  return out.slice(0, count);
+}
+
+function startMockExam() {
+  if (mock && mock.active) { mock.active = false; stopMockTimer(); }
+  const singles = questions.filter(q => (q.selectCount || 1) === 1);
+  const multis = questions.filter(q => (q.selectCount || 1) > 1);
+  if (singles.length < MOCK.SINGLE || multis.length < MOCK.MULTI) {
+    alert('题库题目不足，无法组成模拟卷');
+    return;
+  }
+  const qs = shuffleArr(pickSpread(singles, MOCK.SINGLE).concat(pickSpread(multis, MOCK.MULTI)));
+  mock = {
+    questions: qs,
+    answers: new Array(qs.length).fill(null),
+    index: 0,
+    endTime: Date.now() + MOCK.DURATION_MS,
+    timerId: null,
+    active: true,
+    timedOut: false,
+    outcome: null
+  };
+  document.body.classList.add('mock-on');
+  tickMockTimer();
+  mock.timerId = setInterval(tickMockTimer, 500);
+  renderMockQuestion();
+  showPage('pageExam');
+}
+
+function tickMockTimer() {
+  if (!mock || !mock.active) return;
+  const el = document.getElementById('mockTimer');
+  const remain = mock.endTime - Date.now();
+  if (remain <= 0) {
+    el.textContent = '⏱ 00:00';
+    mock.timedOut = true;
+    finishMockExam();
+    return;
+  }
+  const s = Math.ceil(remain / 1000);
+  el.textContent = '⏱ ' + String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+  el.classList.toggle('danger', s <= 60);
+  el.style.display = 'flex';
+}
+
+function stopMockTimer() {
+  if (mock && mock.timerId) { clearInterval(mock.timerId); mock.timerId = null; }
+  const el = document.getElementById('mockTimer');
+  el.style.display = 'none';
+  el.classList.remove('danger');
+  document.body.classList.remove('mock-on');
+}
+
+function renderMockQuestion() {
+  const q = mock.questions[mock.index];
+  const total = mock.questions.length;
+  document.getElementById('examProgress').textContent = `${mock.index + 1} / ${total}`;
+  document.getElementById('examScore').textContent = '模拟考试';
+  document.getElementById('examFill').style.width = `${((mock.index + 1) / total) * 100}%`;
+  document.getElementById('questionText').innerHTML = q.question;
+  document.getElementById('questionMeta').innerHTML =
+    `${q.categoryName}` + (q.selectCount > 1 ? `<span class="multi-hint">多选</span>` : '');
+  const exp = document.getElementById('examExplanation');
+  if (exp) { exp.style.display = 'none'; exp.innerHTML = ''; }
+
+  const container = document.getElementById('optionsContainer');
+  container.innerHTML = '';
+  container.dataset.submitted = '';
+  mockSelected = new Set();
+  ['A', 'B', 'C', 'D'].forEach(letter => {
+    const opt = document.createElement('div');
+    opt.className = 'option';
+    opt.dataset.letter = letter;
+    opt.innerHTML = `<div class="letter">${letter}</div><div class="text">${q.options[letter]}</div>`;
+    opt.onclick = () => mockOptionClick(opt, letter, q);
+    container.appendChild(opt);
+  });
+
+  const actions = document.getElementById('examActions');
+  actions.innerHTML = '';
+  if (q.selectCount > 1) {
+    const btn = document.createElement('button');
+    btn.className = 'btn btn-primary';
+    btn.disabled = true;
+    btn.textContent = '确认本题';
+    btn.onclick = () => confirmMockMulti(q);
+    actions.appendChild(btn);
+  }
+}
+
+function lockMockOptions() {
+  const container = document.getElementById('optionsContainer');
+  container.dataset.submitted = '1';
+  container.querySelectorAll('.option').forEach(o => { o.onclick = null; });
+}
+
+function mockAdvance() {
+  if (!mock || !mock.active) return;
+  if (mock.index >= mock.questions.length - 1) { finishMockExam(); return; }
+  mock.index++;
+  renderMockQuestion();
+}
+
+function mockOptionClick(opt, letter, q) {
+  if (!mock || !mock.active) return;
+  if (opt.closest('.options').dataset.submitted) return;
+
+  if (q.selectCount === 1) {
+    // 单选：点选即锁定，自动跳下一题（不可回翻）
+    opt.classList.add('selected');
+    lockMockOptions();
+    mock.answers[mock.index] = letter;
+    setTimeout(mockAdvance, MOCK.ADVANCE_MS);
+    return;
+  }
+  // 多选：勾选/取消，须「确认本题」才锁定
+  if (mockSelected.has(letter)) {
+    mockSelected.delete(letter);
+    opt.classList.remove('selected');
+  } else {
+    mockSelected.add(letter);
+    opt.classList.add('selected');
+  }
+  const btn = document.getElementById('examActions').querySelector('.btn');
+  if (btn) btn.disabled = mockSelected.size === 0;
+}
+
+function confirmMockMulti(q) {
+  if (!mock || !mock.active) return;
+  const container = document.getElementById('optionsContainer');
+  if (container.dataset.submitted || mockSelected.size === 0) return;
+  lockMockOptions();
+  const btn = document.getElementById('examActions').querySelector('.btn');
+  if (btn) btn.disabled = true;
+  mock.answers[mock.index] = [...mockSelected].sort().join('');
+  setTimeout(mockAdvance, MOCK.ADVANCE_MS);
+}
+
+function finishMockExam() {
+  if (!mock || !mock.active) return;
+  mock.active = false;
+  stopMockTimer();
+  const results = mock.questions.map((q, i) => {
+    const ans = mock.answers[i] || '';
+    // 多选为集合精确匹配：userAnswer 已排序拼接，与 q.answer（升序字母）全等才得分
+    return { q, no: i + 1, ans, correct: ans === q.answer };
+  });
+  const okCount = results.filter(r => r.correct).length;
+  const wrongList = results.filter(r => !r.correct);
+  const timedOut = mock.timedOut;
+  mock.outcome = { results, okCount, wrongList, timedOut };
+  renderMockResult();
+  showPage('pageMockResult');
+
+  const pass = okCount >= MOCK.PASS;
+  document.getElementById('mockModalTitle').textContent = timedOut ? '⏰ 时间到，已自动交卷' : '📝 考试结束';
+  document.getElementById('mockModalSummary').innerHTML =
+    `答对 <b style="color:${pass ? 'var(--correct)' : 'var(--wrong)'}">${okCount}</b> / ${results.length} 题<br>` +
+    `<b>${pass ? '✅ 合格（合格线 ' + MOCK.PASS + ' 题）' : '❌ 不合格（合格线 ' + MOCK.PASS + ' 题）'}</b>`;
+  document.getElementById('mockResultModal').classList.add('active');
+}
+
+function closeMockModal() {
+  document.getElementById('mockResultModal').classList.remove('active');
+}
+
+function renderMockResult() {
+  const { results, okCount, wrongList, timedOut } = mock.outcome;
+  const pass = okCount >= MOCK.PASS;
+  const scoreEl = document.getElementById('mockResultScore');
+  scoreEl.textContent = `${okCount}/${results.length}`;
+  scoreEl.className = `result-score ${pass ? 'pass' : 'fail'}`;
+  const badge = document.getElementById('mockResultBadge');
+  badge.textContent = pass ? '合格' : '不合格';
+  badge.style.color = pass ? 'var(--correct)' : 'var(--wrong)';
+  const answeredCount = results.filter(r => r.ans !== '').length;
+  document.getElementById('mockResultDetail').textContent =
+    `合格线 ${MOCK.PASS} 题 · ${timedOut ? '超时自动交卷（已答 ' + answeredCount + ' 题）' : '全部作答完成'}`;
+
+  // 错题本加入入口（用户可选，考中绝不自动记录）
+  const acts = document.getElementById('mockWrongActions');
+  acts.innerHTML = '';
+  if (wrongList.length > 0) {
+    const addedAll = wrongList.every(r => !!state.wrong[r.q.id]);
+    const allBtn = document.createElement('button');
+    allBtn.className = `btn ${addedAll ? 'btn-accent' : 'btn-outline'}`;
+    allBtn.textContent = addedAll ? '✓ 错题已全部加入错题本' : '全部错题加入错题本';
+    allBtn.onclick = () => {
+      wrongList.forEach(r => { state.wrong[r.q.id] = { category: r.q.category, time: Date.now() }; });
+      saveState();
+      renderMockResult();
+    };
+    acts.appendChild(allBtn);
+  }
+
+  const list = document.getElementById('mockWrongList');
+  list.innerHTML = '';
+  const head = document.createElement('div');
+  head.style.cssText = 'font-size:0.8rem;color:var(--text2);margin:10px 0 4px';
+  head.textContent = wrongList.length
+    ? `错题编号（${wrongList.length} 题）· 点击查看详情，右侧按钮选择是否加入错题本`
+    : '全部答对，没有错题 🎉';
+  list.appendChild(head);
+
+  wrongList.forEach(r => {
+    const inBook = !!state.wrong[r.q.id];
+    const item = document.createElement('div');
+    item.className = 'result-item';
+    item.innerHTML = `<span class="icon fail">✗</span>
+      <span class="mock-wrong-main">第${r.no}题 · ${r.q.id}${r.q.selectCount > 1 ? '（多选）' : ''}<br>
+      <span style="font-size:0.75rem;color:var(--text2)">${r.q.question.slice(0, 36)}${r.q.question.length > 36 ? '…' : ''}</span></span>`;
+    item.onclick = () => showQuestionDetail(r.q, false);
+    const addBtn = document.createElement('button');
+    addBtn.className = `btn ${inBook ? 'btn-accent' : 'btn-outline'} mock-add-btn`;
+    addBtn.textContent = inBook ? '✓ 已加入' : '加入';
+    addBtn.onclick = (e) => {
+      if (e && e.stopPropagation) e.stopPropagation();
+      if (state.wrong[r.q.id]) delete state.wrong[r.q.id];
+      else state.wrong[r.q.id] = { category: r.q.category, time: Date.now() };
+      saveState();
+      renderMockResult();
+    };
+    item.appendChild(addBtn);
+    list.appendChild(item);
+  });
 }
 
 // --- Boot ---
