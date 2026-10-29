@@ -42,9 +42,18 @@
 
 ## 📱 应用截图
 
-| 首页 | 答题 | 分类练习 |
-|------|------|----------|
-| ![首页](screenshots/home.png) | ![答题](screenshots/exam.png) | ![分类练习](screenshots/categories.png) |
+<table>
+  <tr>
+    <th width="33%">首页</th>
+    <th width="33%">答题</th>
+    <th width="33%">分类练习</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="screenshots/home.png" alt="首页" width="240"></td>
+    <td align="center" valign="top"><img src="screenshots/exam.png" alt="答题" width="240"></td>
+    <td align="center" valign="top"><img src="screenshots/categories.png" alt="分类练习" width="240"></td>
+  </tr>
+</table>
 
 ## 🚀 部署
 
