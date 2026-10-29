@@ -418,7 +418,7 @@
  {
   "id": "MC3-0027",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC3",
   "selectCount": 3,
   "question": "个人设置、使用业余无线电台应当向无线电管理机构提交的材料为：",
@@ -434,7 +434,7 @@
  {
   "id": "MC3-0028",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC3",
   "selectCount": 3,
   "question": "单位设置、使用业余无线电台应当向无线电管理机构提交的材料为：",
@@ -450,7 +450,7 @@
  {
   "id": "MC4-0029",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC4",
   "selectCount": 4,
   "question": "设置、使用业余无线电台，下列哪些条件符合规定：",
@@ -466,7 +466,7 @@
  {
   "id": "MC1-0030",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "设置、使用业余无线电台拟使用自制、改装、拼装等未取得型号核准的无线电发射设备 的，无线电管理机构开展对该设备进行技术检测时：",
@@ -482,7 +482,7 @@
  {
   "id": "MC2-0031",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC2",
   "selectCount": 2,
   "question": "设置、使用15 瓦以上短波业余无线电台以及涉及国家主权、安全的其他重要业余无线电 台的，下列说法正确的是：",
@@ -498,7 +498,7 @@
  {
   "id": "MC4-0032",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC4",
   "selectCount": 4,
   "question": "业余无线电台执照载明了哪些事项：",
@@ -514,7 +514,7 @@
  {
   "id": "MC1-0033",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台执照的有效期不超过：",
@@ -530,7 +530,7 @@
  {
   "id": "MC3-0034",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于业余无线电台执照，下列说法正确的是：",
@@ -546,7 +546,7 @@
  {
   "id": "MC2-0035",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于新版《业余无线电台管理办法》，下列说法正确的是：",
@@ -562,7 +562,7 @@
  {
   "id": "MC1-0036",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "独立操作具有发信功能业余无线电台的年龄条件是：",
@@ -578,7 +578,7 @@
  {
   "id": "MC1-0037",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "个人申请设置、使用具有发信功能的业余无线电台的年龄条件是：",
@@ -594,7 +594,7 @@
  {
   "id": "MC1-0038",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "设置、使用有固定台址的业余无线电台，应当向哪个机构提出申请：",
@@ -610,7 +610,7 @@
  {
   "id": "MC1-0039",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC1",
   "selectCount": 1,
   "question": "设置、使用没有固定台址的业余无线电台，应当向哪个机构提出申请：",
@@ -626,7 +626,7 @@
  {
   "id": "MC3-0040",
   "category": "1.2.1",
-  "categoryName": "业余电台执照",
+  "categoryName": "业余电台设置与执照申请",
   "type": "MC3",
   "selectCount": 3,
   "question": "设置、使用业余无线电台，设置业余无线电台应当具备的条件有：",
@@ -642,7 +642,7 @@
  {
   "id": "MC1-0041",
   "category": "1.2.2",
-  "categoryName": "业余电台操作证书",
+  "categoryName": "业余电台执照变更与注销",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台执照有效期届满后需要继续使用的，应当在下列期限内向作出许可决定的 无线电管理机构申请更换业余无线电台执照：",
@@ -658,7 +658,7 @@
  {
   "id": "MC1-0042",
   "category": "1.2.2",
-  "categoryName": "业余电台操作证书",
+  "categoryName": "业余电台执照变更与注销",
   "type": "MC1",
   "selectCount": 1,
   "question": "变更业余无线电台执照载明事项的，应当办理下列手续：",
@@ -674,7 +674,7 @@
  {
   "id": "MC1-0043",
   "category": "1.2.2",
-  "categoryName": "业余电台操作证书",
+  "categoryName": "业余电台执照变更与注销",
   "type": "MC1",
   "selectCount": 1,
   "question": "终止使用业余无线电台的，应向下列哪个机构办理业余无线电台执照注销手续：",
@@ -690,7 +690,7 @@
  {
   "id": "MC2-0044",
   "category": "1.2.2",
-  "categoryName": "业余电台操作证书",
+  "categoryName": "业余电台执照变更与注销",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于终止使用业余无线电台的，下列说法正确的是：",
@@ -706,7 +706,7 @@
  {
   "id": "MC3-0047",
   "category": "1.2.4",
-  "categoryName": "业余电台呼号",
+  "categoryName": "业余中继台与信标台",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于业余中继台的说法下列错误的是：",
@@ -722,7 +722,7 @@
  {
   "id": "MC3-0048",
   "category": "1.2.4",
-  "categoryName": "业余电台呼号",
+  "categoryName": "业余中继台与信标台",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于业余信标台的说法下列错误的是：",
@@ -738,7 +738,7 @@
  {
   "id": "MC2-0049",
   "category": "1.2.4",
-  "categoryName": "业余电台呼号",
+  "categoryName": "业余中继台与信标台",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于业余中继台哪下列哪些选项正确：",
@@ -754,7 +754,7 @@
  {
   "id": "MC4-0050",
   "category": "1.2.4",
-  "categoryName": "业余电台呼号",
+  "categoryName": "业余中继台与信标台",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于设置业余中继台下列说法正确的是：",
@@ -770,7 +770,7 @@
  {
   "id": "MC1-0051",
   "category": "1.2.4",
-  "categoryName": "业余电台呼号",
+  "categoryName": "业余中继台与信标台",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余中继台的设置和技术参数等应满足下列关键条件：",
@@ -786,7 +786,7 @@
  {
   "id": "MC1-0052",
   "category": "1.3.1",
-  "categoryName": "业余电台频率",
+  "categoryName": "操作技术能力验证机构与证书",
   "type": "MC1",
   "selectCount": 1,
   "question": "可以组织A 类和B 类业余无线电台操作技术能力验证的机构是：",
@@ -802,7 +802,7 @@
  {
   "id": "MC1-0053",
   "category": "1.3.1",
-  "categoryName": "业余电台频率",
+  "categoryName": "操作技术能力验证机构与证书",
   "type": "MC1",
   "selectCount": 1,
   "question": "负责组织C 类业余无线电台操作技术能力验证的机构是：",
@@ -818,7 +818,7 @@
  {
   "id": "MC1-0054",
   "category": "1.3.1",
-  "categoryName": "业余电台频率",
+  "categoryName": "操作技术能力验证机构与证书",
   "type": "MC1",
   "selectCount": 1,
   "question": "参加业余无线电台操作技术能力验证时，下列说法正确的是：",
@@ -834,7 +834,7 @@
  {
   "id": "MC1-0055",
   "category": "1.3.1",
-  "categoryName": "业余电台频率",
+  "categoryName": "操作技术能力验证机构与证书",
   "type": "MC1",
   "selectCount": 1,
   "question": "各类业余无线电台操作技术能力证明文件是：",
@@ -850,7 +850,7 @@
  {
   "id": "MC3-0056",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC3",
   "selectCount": 3,
   "question": "国家无线电管理机构及其委托的机构可以组织实施如下类别的业余无线电台操作技术能 力验证：",
@@ -866,7 +866,7 @@
  {
   "id": "MC3-0057",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC3",
   "selectCount": 3,
   "question": "业余无线电台操作技术能力分为哪几类：",
@@ -882,7 +882,7 @@
  {
   "id": "MC2-0058",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "不同类别业余无线电台的主要区别在于：",
@@ -898,7 +898,7 @@
  {
   "id": "MC1-0059",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC1",
   "selectCount": 1,
   "question": "A 类业余无线电台允许工作的频率范围和最大发射功率为：",
@@ -914,7 +914,7 @@
  {
   "id": "MC1-0060",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC1",
   "selectCount": 1,
   "question": "取得B 类业余无线电台操作技术能力验证证书的，可以申请设置、使用业余无线电台的 工作频段和最大发射功率为：",
@@ -930,7 +930,7 @@
  {
   "id": "MC1-0061",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC1",
   "selectCount": 1,
   "question": "取得C 类业余无线电台操作技术能力验证证书的，可以申请设置、使用业余无线电台的 工作频段和最大发射功率为：",
@@ -946,7 +946,7 @@
  {
   "id": "MC2-0062",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "参加A 类业余无线电台操作技术能力验证应当符合下列哪些要求：",
@@ -962,7 +962,7 @@
  {
   "id": "MC2-0063",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "参加B 类业余无线电台操作技术能力验证应当符合下列哪些要求：",
@@ -978,7 +978,7 @@
  {
   "id": "MC2-0064",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "参加C 类业余无线电台操作技术能力验证应当符合下列哪些要求：",
@@ -994,7 +994,7 @@
  {
   "id": "MC2-0065",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "取得A 类业余无线电台操作技术能力验证证书的，可以申请设置、使用如下业余无线电 台:",
@@ -1010,7 +1010,7 @@
  {
   "id": "MC4-0066",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC4",
   "selectCount": 4,
   "question": "取得B 类业余无线电台操作技术能力验证证书的，可以申请设置、使用如下业余无线电 台:",
@@ -1026,7 +1026,7 @@
  {
   "id": "MC4-0067",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC4",
   "selectCount": 4,
   "question": "取得C 类业余无线电台操作技术能力验证证书的，可以申请设置、使用如下业余无线电 台:",
@@ -1042,7 +1042,7 @@
  {
   "id": "MC2-0068",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于开展特殊技术试验、通联等活动，下列说法正确的是：",
@@ -1058,7 +1058,7 @@
  {
   "id": "MC2-0069",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于未成年人设置、使用业余无线电台，下列哪些选项为正确：",
@@ -1074,7 +1074,7 @@
  {
   "id": "MC4-0070",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于业余无线电台操作技术能力验证，下列哪些选项为正确：",
@@ -1090,7 +1090,7 @@
  {
   "id": "MC2-0071",
   "category": "1.3.2",
-  "categoryName": "业余电台发射功率",
+  "categoryName": "操作技术能力类别与权限",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于新版《办法》施行前，依法取得B 类业余无线电台操作技术能力验证证书的，下列 哪些选项为正确：",
@@ -1106,7 +1106,7 @@
  {
   "id": "MC3-0072",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "《业余无线电台管理办法》规定正确使用业余无线电台呼号的方法是：",
@@ -1122,7 +1122,7 @@
  {
   "id": "MC1-0073",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台呼号的核发流程是：",
@@ -1138,7 +1138,7 @@
  {
   "id": "MC1-0074",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电管理机构颁发业余无线电台执照时，若申请人已取得业余中继台、业余信标台呼 号以外的其他业余无线电台呼号，无线电管理机构将：",
@@ -1154,7 +1154,7 @@
  {
   "id": "MC2-0075",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC2",
   "selectCount": 2,
   "question": "业余无线电台呼号停止使用的，下列说法正确的是：",
@@ -1170,7 +1170,7 @@
  {
   "id": "MC1-0076",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "注销的电台呼号重新投入分配前，申请人再次申请设置、使用业余无线电台，下列说法 正确的是：",
@@ -1186,7 +1186,7 @@
  {
   "id": "MC2-0077",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC2",
   "selectCount": 2,
   "question": "在他人依法设置的业余无线电台上进行发射操作的，下列说法正确的是：",
@@ -1202,7 +1202,7 @@
  {
   "id": "MC3-0078",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "满足下列哪些条件，可以临时使用其他业余无线电台呼号？",
@@ -1218,7 +1218,7 @@
  {
   "id": "MC4-0079",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于业余无线电台呼号，下列说法正确的是：",
@@ -1234,7 +1234,7 @@
  {
   "id": "MC2-0080",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于业余无线电台呼号前缀，下列说法正确的是：",
@@ -1250,7 +1250,7 @@
  {
   "id": "MC4-0081",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于电台种类（呼号第二部分），下列说法正确的是：",
@@ -1266,7 +1266,7 @@
  {
   "id": "MC3-0082",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于分区编号（呼号第三部分），下列说法正确的是：",
@@ -1282,7 +1282,7 @@
  {
   "id": "MC3-0083",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于呼号后缀（呼号第四部分），下列说法正确的是：",
@@ -1298,7 +1298,7 @@
  {
   "id": "MC3-0084",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "各省、自治区、直辖市无线电管理机构核发一般业余无线电台呼号时，下列说法正确的 是：",
@@ -1314,7 +1314,7 @@
  {
   "id": "MC1-0085",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者对已核发给自己的电台呼号不满意，是否可以申请另行核发业余无线 电台呼号？",
@@ -1330,7 +1330,7 @@
  {
   "id": "MC1-0086",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "各地业余无线电台呼号前缀字母和后缀字符的可用范围的确定方法是：",
@@ -1346,7 +1346,7 @@
  {
   "id": "MC3-0087",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于使用业余无线电台呼号正确的是：",
@@ -1362,7 +1362,7 @@
  {
   "id": "MC4-0088",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC4",
   "selectCount": 4,
   "question": "业余无线电台呼号由下列哪些部分组成：",
@@ -1378,7 +1378,7 @@
  {
   "id": "MC1-0089",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "《业余无线电台管理办法》要求业余电台在建立和结束通信时主动发送本台呼号。允许 使用呼号的一部分（比如后缀）替代完整呼号的情况包括：",
@@ -1394,7 +1394,7 @@
  {
   "id": "MC1-0090",
   "category": "1.4.1",
-  "categoryName": "业余电台通信方式",
+  "categoryName": "业余电台呼号管理与使用",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中，是否可将本台或对方电台呼号之中的地区码加后缀视作《业余无 线电台管理办法》中的“电台呼号”？",
@@ -1410,7 +1410,7 @@
  {
   "id": "MC1-0091",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于我国业余无线电台分区号，业余分区号为1 的省（自治区、直辖市）为：",
@@ -1426,7 +1426,7 @@
  {
   "id": "MC3-0092",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于我国业余无线电台分区号，业余分区号为2 的省（自治区、直辖市）为：",
@@ -1442,7 +1442,7 @@
  {
   "id": "MC4-0093",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于我国业余无线电台分区号，业余分区号为3 的省（自治区、直辖市）为：",
@@ -1458,7 +1458,7 @@
  {
   "id": "MC3-0094",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于我国业余无线电台分区号，业余分区号为4 的省（自治区、直辖市）为：",
@@ -1474,7 +1474,7 @@
  {
   "id": "MC3-0095",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于我国业余无线电台分区号，业余分区号为5 的省（自治区、直辖市）为：",
@@ -1490,7 +1490,7 @@
  {
   "id": "MC3-0096",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于我国业余无线电台分区号，业余分区号为6 的省（自治区、直辖市）为：",
@@ -1506,7 +1506,7 @@
  {
   "id": "MC4-0097",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于我国业余无线电台分区号，业余分区号为7 的省（自治区、直辖市）为：",
@@ -1522,7 +1522,7 @@
  {
   "id": "MC4-0098",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于我国业余无线电台分区号，业余分区号为8 的省（自治区、直辖市）为：",
@@ -1538,7 +1538,7 @@
  {
   "id": "MC4-0099",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于我国业余无线电台分区号，业余分区号为9 的省（自治区、直辖市）为：",
@@ -1554,7 +1554,7 @@
  {
   "id": "MC2-0100",
   "category": "1.4.2",
-  "categoryName": "业余电台通信内容",
+  "categoryName": "我国业余电台呼号分区",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于我国业余无线电台分区号，业余分区号为0 的省（自治区、直辖市）为：",
@@ -1570,7 +1570,7 @@
  {
   "id": "MC1-0105",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "合法设置、使用业余电台的必要步骤是：",
@@ -1586,7 +1586,7 @@
  {
   "id": "MC1-0106",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台的法定用途为：",
@@ -1602,7 +1602,7 @@
  {
   "id": "MC1-0107",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "申请设置使用配备有多台业余无线电发射设备的业余无线电台，应该：",
@@ -1618,7 +1618,7 @@
  {
   "id": "MC1-0108",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余中继台必备的技术措施为：",
@@ -1634,7 +1634,7 @@
  {
   "id": "MC1-0109",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "某团体依法设置了一部业余中继台。其正确做法是：",
@@ -1650,7 +1650,7 @@
  {
   "id": "MC1-0110",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "选择144MHz 或430MHz 业余模拟调频中继台同频段收发频差的原则是：",
@@ -1666,7 +1666,7 @@
  {
   "id": "MC2-0111",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC2",
   "selectCount": 2,
   "question": "业余无线电台使用的无线电发射设备必须符合下列条件：",
@@ -1682,7 +1682,7 @@
  {
   "id": "MC1-0112",
   "category": "1.5.1",
-  "categoryName": "业余电台干扰处理",
+  "categoryName": "业余电台设置与使用要求",
   "type": "MC1",
   "selectCount": 1,
   "question": "“我不是业余无线电爱好者，申请设置业余电台只是为了行车方便，不需要遵守业余无 线电的规范”。这种说法：",
@@ -1698,7 +1698,7 @@
  {
   "id": "MC1-0113",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "某业余电台操作者听到业余专用频率上出现某种显然出自非业余电台的人为干扰发射， 于是按下话筒向该发射者宣传无线电管理法规知识。对这种做法的评论应该是：",
@@ -1714,7 +1714,7 @@
  {
   "id": "MC1-0114",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电台中转发广播电台、互联网聊天、电话通话、其他电台的联络信号，这类 行为的性质是：",
@@ -1730,7 +1730,7 @@
  {
   "id": "MC1-0115",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台在通信中为其他人或者单位、组织转达信息。对这种做法的评论应该是：",
@@ -1746,7 +1746,7 @@
  {
   "id": "MC1-0116",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "某业余无线电协会在发射操作中向其会员播发公益性通知和技术训练讲座，但未得到相 应无线电管理机构的批准。对这种做法的评论应该是：",
@@ -1762,7 +1762,7 @@
  {
   "id": "MC1-0117",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于业余无线电台在通信过程中使用的语言，正确的做法为：",
@@ -1778,7 +1778,7 @@
  {
   "id": "MC1-0118",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "具备国家无线电管理机构规定的操作技术能力并具有法律规定有效证明文件、但还没有 获准设置自己的业余电台的人是否可以到业余电台进行发射操作？答案是：",
@@ -1794,7 +1794,7 @@
  {
   "id": "MC3-0119",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC3",
   "selectCount": 3,
   "question": "未取得相应业余无线电台执照或者相应操作技术能力的人员，为提高业余无线电台操作 技术能力的需要，可以在他人依法设置的业余无线电台上进行发射操作实习。应遵守的条件 是什么？",
@@ -1810,7 +1810,7 @@
  {
   "id": "MC1-0120",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台设置人应对其无线电发射设备担负的法定责任为：",
@@ -1826,7 +1826,7 @@
  {
   "id": "MC1-0121",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者使用业余无线电收信设备应遵守的规定为：",
@@ -1842,7 +1842,7 @@
  {
   "id": "MC1-0122",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者无意接收到非业余业务和卫星业余业务的信息时，应遵守的规则为：",
@@ -1858,7 +1858,7 @@
  {
   "id": "MC1-0123",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台是否可以发射从广播电台收到的信号、音像节目的录音，或者故意转送电 台周围的声音？",
@@ -1874,7 +1874,7 @@
  {
   "id": "MC1-0124",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "国家对于利用业余无线电台从事发布、传播违反法律或者公共道德的信息的行为的态度 是：",
@@ -1890,7 +1890,7 @@
  {
   "id": "MC1-0125",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "出租车安装业余电台并用来传递有关载客的信息，这种行为的性质是：",
@@ -1906,7 +1906,7 @@
  {
   "id": "MC1-0126",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "利用业余无线电台通信来促销业余无线电产品或者推动与业余无线电活动有关的其他商 业性活动，对这类行为的态度应该是：",
@@ -1922,7 +1922,7 @@
  {
   "id": "MC1-0127",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "利用自己的业余电台强信号故意压制其他业余电台的正常通信，或者在业余无线电频率 上转播音乐或广播节目，这些行为的性质属于：",
@@ -1938,7 +1938,7 @@
  {
   "id": "MC1-0128",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电活动是否有序开展，会影响整个社会的无线电通信的安全和有效，使用不当 甚至会导致生命财产损失。业余无线电爱好者在这方的责任是：",
@@ -1954,7 +1954,7 @@
  {
   "id": "MC1-0129",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台可用于下列用途：",
@@ -1970,7 +1970,7 @@
  {
   "id": "MC1-0130",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC1",
   "selectCount": 1,
   "question": "符合业余无线电爱好者基本条件的人群是：",
@@ -1986,7 +1986,7 @@
  {
   "id": "MC4-0131",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC4",
   "selectCount": 4,
   "question": "业余无线电台禁止从事下列活动：",
@@ -2002,7 +2002,7 @@
  {
   "id": "MC4-0132",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC4",
   "selectCount": 4,
   "question": "业余无线电台应当遵守下列哪些规定：",
@@ -2018,7 +2018,7 @@
  {
   "id": "MC3-0133",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC3",
   "selectCount": 3,
   "question": "以下哪些使用业余无线电台的行为超越了在业余业务频率范围内收发信号的规定：",
@@ -2034,7 +2034,7 @@
  {
   "id": "MC3-0134",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC3",
   "selectCount": 3,
   "question": "下列哪些未取得型号核准的无线电发射设备不可以作为自制、改装、拼装的业余无线电 台设置、使用：",
@@ -2050,7 +2050,7 @@
  {
   "id": "MC4-0135",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC4",
   "selectCount": 4,
   "question": "使用业余无线电台不得从事下列活动:",
@@ -2066,7 +2066,7 @@
  {
   "id": "MC4-0136",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC4",
   "selectCount": 4,
   "question": "使用业余无线电台不得从事下列活动:",
@@ -2082,7 +2082,7 @@
  {
   "id": "MC4-0137",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC4",
   "selectCount": 4,
   "question": "使用业余无线电台应当符合如下规定：",
@@ -2098,7 +2098,7 @@
  {
   "id": "MC3-0138",
   "category": "1.5.2",
-  "categoryName": "业余电台禁止行为",
+  "categoryName": "业余电台通信规则与行为规范",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于业余无线电台在通信过程中使用的语言，正确的做法为:",
@@ -2178,7 +2178,7 @@
  {
   "id": "MC1-0143",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台设置、使用人应当接受下列机构对业余无线电台及其使用情况的监督检查：",
@@ -2194,7 +2194,7 @@
  {
   "id": "MC4-0144",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于无线电频谱资源，下列说法正确的是：",
@@ -2210,7 +2210,7 @@
  {
   "id": "MC4-0145",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于无线电频率、业务、台（站），下列说法正确的是：",
@@ -2226,7 +2226,7 @@
  {
   "id": "MC1-0146",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "违反国家规定，擅自设置、使用无线电台（站），或者擅自使用无线电频率，干扰无线电 通讯秩序，情节严重的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；情节特 别严重的，处三年以上七年以下有期徒刑，并处罚金。单位犯前款罪的，对单位判处罚金， 并对其直接负责的主管人员和其他直接责任人员，依照前款的规定处罚。这个规定出自于下 列法规律：",
@@ -2242,7 +2242,7 @@
  {
   "id": "MC1-0147",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电频率的使用必须得到无线电管理机构的批准，基本依据是“无线电频谱资源属于 国家所有”，出自于下列法律的第二百五十二条：",
@@ -2258,7 +2258,7 @@
  {
   "id": "MC1-0148",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电管制是指在下列范围内依法采取的对无线电波的发射、辐射和传播实施的强制性 管理：",
@@ -2274,7 +2274,7 @@
  {
   "id": "MC1-0149",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电管制是指在特定时间和特定区域内，依法采取的下列性质的管理：",
@@ -2290,7 +2290,7 @@
  {
   "id": "MC1-0150",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "在特定时间和特定区域内实施无线电管制时，与业余无线电有关的管理措施包括：",
@@ -2306,7 +2306,7 @@
  {
   "id": "MC2-0151",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC2",
   "selectCount": 2,
   "question": "决定实施无线电管制的机构为：",
@@ -2322,7 +2322,7 @@
  {
   "id": "MC2-0152",
   "category": "1.6.1",
-  "categoryName": "无线电发射设备",
+  "categoryName": "无线电管理监督与资源保护",
   "type": "MC2",
   "selectCount": 2,
   "question": "违反无线电管制命令和无线电管制指令的，由下列机构依法进行处罚：",
@@ -2338,7 +2338,7 @@
  {
   "id": "MC3-0153",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC3",
   "selectCount": 3,
   "question": "业余电台违反无线电管制命令和无线电管制指令的，可以依法规受到下列处罚：",
@@ -2354,7 +2354,7 @@
  {
   "id": "MC2-0154",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "对未经许可擅自使用无线电频率的，无线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2370,7 +2370,7 @@
  {
   "id": "MC2-0155",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "对擅自设置、使用业余无线电台的，无线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2386,7 +2386,7 @@
  {
   "id": "MC1-0156",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC1",
   "selectCount": 1,
   "question": "擅自设置、使用无线电台（站）从事诈骗等违法活动，可以根据其具体情况给予下列处 罚：",
@@ -2402,7 +2402,7 @@
  {
   "id": "MC2-0157",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "不按照业余无线电台执照规定的许可事项和要求设置、使用业余无线电台的，无线电管 理机构可以根据其具体情况给予下列处罚：",
@@ -2418,7 +2418,7 @@
  {
   "id": "MC2-0158",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "故意收发业余无线电台执照许可事项之外的无线电信号，传播、公布或者利用无意接收 的信息，无线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2434,7 +2434,7 @@
  {
   "id": "MC2-0159",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "擅自编制、使用业余无线电台呼号，无线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2450,7 +2450,7 @@
  {
   "id": "MC1-0160",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台干扰无线电业务正常进行的，无线电管理机构可以根据其具体情况给予下列处 罚：",
@@ -2466,7 +2466,7 @@
  {
   "id": "MC1-0161",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台对船舶、航天器、航空器、铁路机车专用无线电导航、遇险救助和安全通信等 涉及人身安全的无线电频率产生有害干扰的，无线电管理机构可以根据其具体情况给予下列 处罚：",
@@ -2482,7 +2482,7 @@
  {
   "id": "MC2-0162",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "研制、生产、销售和维修大功率无线电发射设备，未采取有效措施抑制电波发射的，无 线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2498,7 +2498,7 @@
  {
   "id": "MC2-0163",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "境外组织或者个人在我国境内进行电波参数测试或者电波监测的，无线电管理机构可以 根据其具体情况给予下列处罚：",
@@ -2514,7 +2514,7 @@
  {
   "id": "MC2-0164",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "向境外组织或者个人提供涉及国家安全的境内电波参数资料的，无线电管理机构可以根 据其具体情况给予下列处罚：",
@@ -2530,7 +2530,7 @@
  {
   "id": "MC2-0165",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "生产或者进口在国内销售、使用的无线电发射设备未取得型号核准的，无线电管理机构 可以根据其具体情况给予下列处罚：",
@@ -2546,7 +2546,7 @@
  {
   "id": "MC2-0166",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "销售依照本条例第四十四条的规定应当取得型号核准的无线电发射设备未向无线电管理 机构办理销售备案的，无线电管理机构可以根据其具体情况给予下列处罚：",
@@ -2562,7 +2562,7 @@
  {
   "id": "MC2-0167",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于违反《中华人民共和国无线电管理条例》规定，下列说法正确的是：",
@@ -2578,7 +2578,7 @@
  {
   "id": "MC1-0168",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC1",
   "selectCount": 1,
   "question": "隐瞒有关情况、提供虚假材料或者虚假承诺申请业余无线电台设置、使用许可，无线电 管理机构可以给予下列处罚：",
@@ -2594,7 +2594,7 @@
  {
   "id": "MC2-0169",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC2",
   "selectCount": 2,
   "question": "以欺骗、贿赂等不正当手段取得业余无线电台执照的，可以给予下列处罚：",
@@ -2610,7 +2610,7 @@
  {
   "id": "MC1-0170",
   "category": "1.6.2",
-  "categoryName": "无线电接收设备",
+  "categoryName": "违法行为与法律责任",
   "type": "MC1",
   "selectCount": 1,
   "question": "在《中华人民共和国治安管理处罚法》中，无线电有关说法正确的是：",
@@ -2626,7 +2626,7 @@
  {
   "id": "MC4-0171",
   "category": "1.6.3",
-  "categoryName": "天线与馈线",
+  "categoryName": "网络安全与国家安全",
   "type": "MC4",
   "selectCount": 4,
   "question": "关于《中华人民共和国网络安全法》，下列说法正确的是：",
@@ -2642,7 +2642,7 @@
  {
   "id": "MC1-0172",
   "category": "1.6.3",
-  "categoryName": "天线与馈线",
+  "categoryName": "网络安全与国家安全",
   "type": "MC1",
   "selectCount": 1,
   "question": "《中华人民共和国国家安全法》中提到，国家安全工作应当坚持总体国家安全观，以人 民安全为（），以政治安全为（），以经济安全为（），以军事、文化、社会安全为（），以促 进国际安全为依托，维护各领域国家安全，构建国家安全体系，走中国特色国家安全道路。",
@@ -2658,7 +2658,7 @@
  {
   "id": "MC4-0173",
   "category": "1.6.3",
-  "categoryName": "天线与馈线",
+  "categoryName": "网络安全与国家安全",
   "type": "MC4",
   "selectCount": 4,
   "question": "以下哪些是《中华人民共和国国家安全法》中规定的公民和组织应当履行的义务？",
@@ -2674,7 +2674,7 @@
  {
   "id": "MC1-0174",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电台在业余业务、卫星业余业务作为次要业务使用的频率或者与其他主要业务 共同使用的频率上发射操作时，应当注意：",
@@ -2690,7 +2690,7 @@
  {
   "id": "MC1-0175",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于业余频率的使用，正确的叙述是：",
@@ -2706,7 +2706,7 @@
  {
   "id": "MC1-0176",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "在频率划分表中，当一个频段划分给业余业务或卫星业余业务和多个其他业务，并且业 余业务和卫星业余业务作为次要业务时，业余无线电台应该遵循的规则是：",
@@ -2722,7 +2722,7 @@
  {
   "id": "MC1-0177",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "在频率划分表中，当一个频段划分给业余业务或卫星业余业务和多个其他业务，并且业 余业务和卫星业余业务作为次要业务时，业余无线电台遵循的规则是：",
@@ -2738,7 +2738,7 @@
  {
   "id": "MC1-0178",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "在频率划分表中，当一个频段划分给业余业务或卫星业余业务和多个其他业务，并且业 余业务和卫星业余业务作为次要业务时，业余无线电台遵循的规则是：",
@@ -2754,7 +2754,7 @@
  {
   "id": "MC1-0179",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务专用的频段有：",
@@ -2770,7 +2770,7 @@
  {
   "id": "MC1-0180",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务与其他业务共用、并且业余业务和卫星业余业务作 为主要业务之一的30MHz 以下频段有：",
@@ -2786,7 +2786,7 @@
  {
   "id": "MC1-0181",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国在VHF 和UHF 范围内分配给业余业务和卫星业余业务与其他业务共用并设业务类 别为主要业务与次要业务，以下那些频率分配给业余业务和卫星业余业务与其他业务共用并 且业余业务和卫星业余业务作为主要业务：",
@@ -2802,7 +2802,7 @@
  {
   "id": "MC1-0182",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务与其他业务共用、并且业余业务和卫星业余业务作 为唯一主要业务的频段的个数以及在3GHz 以下的该类频段分别为：",
@@ -2818,7 +2818,7 @@
  {
   "id": "MC1-0183",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务与其他业务共用、并且业余业务和卫星业余业务作 为次要业务的1200MHz 以下频段有：",
@@ -2834,7 +2834,7 @@
  {
   "id": "MC1-0184",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务的频率最高的频段及其共用类别是：",
@@ -2850,7 +2850,7 @@
  {
   "id": "MC1-0185",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "国际业余无线电界把WARC-76 增加分配给业余业务和卫星业余业务的三个HF 频段俗 称为WARC 频段，它们的频率范围是：",
@@ -2866,7 +2866,7 @@
  {
   "id": "MC1-0186",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的40 米业余波段，其在ITU1、2、3 区的频率范围以及业余业务和卫星业余业务的 使用状态分别为：",
@@ -2882,7 +2882,7 @@
  {
   "id": "MC1-0187",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的160 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2898,7 +2898,7 @@
  {
   "id": "MC1-0188",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的80 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2914,7 +2914,7 @@
  {
   "id": "MC1-0189",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的20 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2930,7 +2930,7 @@
  {
   "id": "MC1-0190",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的15 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2946,7 +2946,7 @@
  {
   "id": "MC1-0191",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的10 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2962,7 +2962,7 @@
  {
   "id": "MC1-0192",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的6 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -2978,7 +2978,7 @@
  {
   "id": "MC1-0193",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的2 米业余波段的频率范围以及我国业余业务和卫星业余业务的使用状态分别为：",
@@ -2994,7 +2994,7 @@
  {
   "id": "MC1-0194",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "俗称的0.7 米业余波段的频率范围以及业余业务和卫星业余业务的使用状态分别为：",
@@ -3010,7 +3010,7 @@
  {
   "id": "MC1-0195",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "在我国和多数其他国家的频率分配中，业余业务在430-440MHz 频段中作为次要业务与 其他业务共用。这个频段中我国分配的主要业务是：",
@@ -3026,7 +3026,7 @@
  {
   "id": "MC1-0196",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国分配给业余业务和卫星业余业务的属于低频（LF）范围的频段为：",
@@ -3042,7 +3042,7 @@
  {
   "id": "MC1-0197",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台应避免在IARU 信标工作频率±500Hz 的范围内发射电波。这些频率是：",
@@ -3058,7 +3058,7 @@
  {
   "id": "MC1-0198",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国短波业余电台在7MHz 频段进行LSB 通话时可以实际占用的频率为：",
@@ -3074,7 +3074,7 @@
  {
   "id": "MC1-0199",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在14MHz 频段进行USB 通话时可以实际占用的频率为：",
@@ -3090,7 +3090,7 @@
  {
   "id": "MC1-0200",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在18MHz 频段进行USB 通话时可以实际占用的频率为：",
@@ -3106,7 +3106,7 @@
  {
   "id": "MC1-0201",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在21MHz 频段进行USB 通话时可以实际占用的频率为：",
@@ -3122,7 +3122,7 @@
  {
   "id": "MC1-0202",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在24MHz 频段进行USB 通话时可以实际占用的频率为：",
@@ -3138,7 +3138,7 @@
  {
   "id": "MC1-0203",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在29MHz 频段进行USB 通话时可以实际占用的频率为：",
@@ -3154,7 +3154,7 @@
  {
   "id": "MC1-0204",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "短波业余电台在29MHz 频段进行FM 通话时可以实际占用的频率为：",
@@ -3170,7 +3170,7 @@
  {
   "id": "MC1-0205",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "VHF 业余无线电台在144MHz 频段进行本地联络时应避免占用的频率为：",
@@ -3186,7 +3186,7 @@
  {
   "id": "MC1-0206",
   "category": "1.7.1",
-  "categoryName": "电磁兼容",
+  "categoryName": "业余频率划分与业务地位",
   "type": "MC1",
   "selectCount": 1,
   "question": "UHF 业余无线电台在430MHz 频段进行本地联络时应避免占用的频率为：",
@@ -3202,7 +3202,7 @@
  {
   "id": "MC1-0207",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "分配给业余业务的某频段的频率下限为F1，业余电台实际可以工作的发信频率应为：",
@@ -3218,7 +3218,7 @@
  {
   "id": "MC1-0208",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "分配给业余业务的某频段的频率上限为F2，业余电台实际可以工作的发信频率应为：",
@@ -3234,7 +3234,7 @@
  {
   "id": "MC1-0209",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "ITU 对于5 至30MHz 短波频段的态度是：",
@@ -3250,7 +3250,7 @@
  {
   "id": "MC1-0210",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "国际电联规定的确定发射电台辐射功率的原则为：",
@@ -3266,7 +3266,7 @@
  {
   "id": "MC1-0211",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "某俱乐部约定了一个成员业余电台之间交流技术的网络频率，当遇有其他业余电台按通 信惯例要求参加通信时，处理原则应为：",
@@ -3282,7 +3282,7 @@
  {
   "id": "MC1-0212",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "ITU《无线电规则》禁止所有电台发射下列种类的电波：",
@@ -3298,7 +3298,7 @@
  {
   "id": "MC4-0213",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC4",
   "selectCount": 4,
   "question": "下列哪些违法行为将由无线电管理机构依照《中华人民共和国无线电管理条例》的规定 处理：",
@@ -3314,7 +3314,7 @@
  {
   "id": "MC2-0214",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC2",
   "selectCount": 2,
   "question": "业余无线电台使用业余业务频率使用原则：",
@@ -3330,7 +3330,7 @@
  {
   "id": "MC1-0215",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最低频段为135.7-137.8kHz，属于 无线电频谱的下列频段（波段）：",
@@ -3346,7 +3346,7 @@
  {
   "id": "MC1-0216",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最低频段为135.7-137.8kHz，属于 无线电频谱的下列频段（波段）：",
@@ -3362,7 +3362,7 @@
  {
   "id": "MC1-0217",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的1,800kHz-2,000kHz 属于无线电频 谱的下列频段（波段）：",
@@ -3378,7 +3378,7 @@
  {
   "id": "MC1-0218",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的1,800kHz-2,000kHz 属于无线电频 谱的下列频段（波段）：",
@@ -3394,7 +3394,7 @@
  {
   "id": "MC1-0219",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的28MHz-29.7MHz 属于无线电频谱 的下列频段（波段）：",
@@ -3410,7 +3410,7 @@
  {
   "id": "MC1-0220",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的28MHz-29.7MHz 属于无线电频谱 的下列频段（波段）：",
@@ -3426,7 +3426,7 @@
  {
   "id": "MC1-0221",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的50MHz-54MHz 属于无线电频谱的 下列频段（波段）：",
@@ -3442,7 +3442,7 @@
  {
   "id": "MC1-0222",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的50MHz-54MHz 属于无线电频谱的 下列频段（波段）：",
@@ -3458,7 +3458,7 @@
  {
   "id": "MC1-0223",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近无线宽带WiFi 频率的频段为 2,300-2,450MHz，属于无线电频谱的下列频段（波段）：",
@@ -3474,7 +3474,7 @@
  {
   "id": "MC1-0224",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "430-440MHz 业余频段与公众对讲机的工作频率最为接近。如果业余无线电爱好者希望 通过改变业余电台的配置，将之“扩频”并与公众对讲机持有者通信，则需注意：",
@@ -3490,7 +3490,7 @@
  {
   "id": "MC1-0225",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近Wi-Fi 局域网频率的频段为 2,300-2,450MHz，属于无线电频谱的下列频段（波段）：",
@@ -3506,7 +3506,7 @@
  {
   "id": "MC1-0226",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近C 波段卫星电视广播频率的 频段是5.650-5.850GHz，属于无线电频谱的下列频段（波段）：",
@@ -3522,7 +3522,7 @@
  {
   "id": "MC1-0227",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近C 波段卫星电视广播频率的 频段是5.650-5.850GHz，属于无线电频谱的下列频段（波段）：",
@@ -3538,7 +3538,7 @@
  {
   "id": "MC1-0228",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近Ku 波段卫星电视广播频率的 频段10-10.5GHz，属于无线电频谱的下列频段（波段）：",
@@ -3554,7 +3554,7 @@
  {
   "id": "MC1-0229",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最接近Ku 波段卫星电视广播频率的 频段10-10.5GHz，属于无线电频谱的下列频段（波段）：",
@@ -3570,7 +3570,7 @@
  {
   "id": "MC1-0230",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最高频段为241GHz-250GHz，属 于无线电频谱的下列频段（波段）：",
@@ -3586,7 +3586,7 @@
  {
   "id": "MC1-0231",
   "category": "1.7.2",
-  "categoryName": "无线电干扰防护",
+  "categoryName": "频率使用原则与频段名称",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国《无线电频率划分规定》划分给业余业务使用的最高频段为241GHz-250GHz，属 于无线电频谱的下列频段（波段）：",
@@ -3602,7 +3602,7 @@
  {
   "id": "MC1-0232",
   "category": "2.1.1",
-  "categoryName": "电路基本概念",
+  "categoryName": "ITU无线电管理分区",
   "type": "MC1",
   "selectCount": 1,
   "question": "为在世界范围内划分无线电频率，国际电信联盟《无线电规则》规定了如下区域划分：",
@@ -3618,7 +3618,7 @@
  {
   "id": "MC1-0233",
   "category": "2.1.1",
-  "categoryName": "电路基本概念",
+  "categoryName": "ITU无线电管理分区",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电管理实践中，我们常会用到把全球分为3 个无线电管理区域的划分办法。 制定该方法的国际机构及其公布的文件为：",
@@ -3634,7 +3634,7 @@
  {
   "id": "MC1-0234",
   "category": "2.1.1",
-  "categoryName": "电路基本概念",
+  "categoryName": "ITU无线电管理分区",
   "type": "MC1",
   "selectCount": 1,
   "question": "ITU 的区域划分有一套详尽规则。若概要描述则大致为：",
@@ -3650,7 +3650,7 @@
  {
   "id": "MC1-0235",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电频率划分在ITU 的3 个无线电管理分区中略有不同。ITU 三区的40 米业余波 段为：",
@@ -3666,7 +3666,7 @@
  {
   "id": "MC1-0236",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "2 米波段的话音联络通常位于144.035-145.800MHz。这也是IARU 第3 区波段规划中的 一个多模式共用细分频段。假设一部业余电台正以FM 方式在该频段参与通联，发射带宽小 于20kHz 并且频率容限优于±2kHz，则该台的主载波设置范围可以是：",
@@ -3682,7 +3682,7 @@
  {
   "id": "MC1-0237",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "2 米波段的话音联络通常位于144.035-145.800MHz。这也是IARU 第3 区波段规划中的 一个多模式共用细分频段。假设一部业余电台正以USB 方式在该频段参与通联，发射带宽 小于3kHz 并且频率容限优于±2kHz，则该电台的主载波设置范围可以是：",
@@ -3698,7 +3698,7 @@
  {
   "id": "MC1-0238",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "在70 厘米波段中，爱好者经常在438-440MHz 展开话音通信。这也是IARU 第3 区波 段规划中的一个多模式共用细分频段。假设一部业余电台正以FM 方式在该频段参与通联， 发射带宽小于20kHz 并且频率容限优于±2kHz，则该电台的主载波设置范围可以是：",
@@ -3714,7 +3714,7 @@
  {
   "id": "MC1-0239",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "在70 厘米波段中，爱好者经常在438-440MHz 展开话音通信。这也是IARU 第3 区波 段规划中的一个多模式共用细分频段。假设一部业余电台正以USB 方式在该频段参与通联， 发射带宽小于3kHz 并且频率容限优于±2kHz，则该电台的主载波设置范围可以是：",
@@ -3730,7 +3730,7 @@
  {
   "id": "MC1-0240",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "10 米业余波段中留给卫星业余业务，话音及其他通信方式不应占用的频段为：",
@@ -3746,7 +3746,7 @@
  {
   "id": "MC1-0241",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "144MHz 业余频段中留给卫星业余业务，话音及其他通信方式不应占用的频段为：",
@@ -3762,7 +3762,7 @@
  {
   "id": "MC1-0242",
   "category": "2.1.2",
-  "categoryName": "欧姆定律与功率",
+  "categoryName": "业余波段规划与频率选择",
   "type": "MC1",
   "selectCount": 1,
   "question": "430MHz 业余频段中留给卫星业余业务，话音及其他通信方式不应占用的频段为：",
@@ -3778,7 +3778,7 @@
  {
   "id": "MC1-0246",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "通话时，有什么方法可以让你清晰表述呼号或重要消息中的英语字母？",
@@ -3794,7 +3794,7 @@
  {
   "id": "MC1-0247",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号BH1XYZ 可以拼读为：",
@@ -3810,7 +3810,7 @@
  {
   "id": "MC1-0248",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号B7CRA 可以拼读为：",
@@ -3826,7 +3826,7 @@
  {
   "id": "MC1-0249",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号4U1UN 可以拼读为：",
@@ -3842,7 +3842,7 @@
  {
   "id": "MC1-0250",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号VR2ZQW 可以拼读为：",
@@ -3858,7 +3858,7 @@
  {
   "id": "MC1-0251",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号BS7H 可以拼读为：",
@@ -3874,7 +3874,7 @@
  {
   "id": "MC1-0252",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号JA2IGY 可以拼读为：",
@@ -3890,7 +3890,7 @@
  {
   "id": "MC1-0253",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号K3TRX/VE6 可以拼读为：",
@@ -3906,7 +3906,7 @@
  {
   "id": "MC1-0254",
   "category": "2.1.5",
-  "categoryName": "交流电路",
+  "categoryName": "国际字母解释法",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要拼出呼号、术语和必要的文字时，业余无线电爱好者普遍使用ITU 语音字母表中规 定的字母拼读法。呼号3DA0FZ/DL5CMP 可以拼读为：",
@@ -3922,7 +3922,7 @@
  {
   "id": "MC1-0259",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果一部业余电台在呼叫CQ，他的意思是：",
@@ -3938,7 +3938,7 @@
  {
   "id": "MC1-0260",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "一部业余电台如何发起CQ 呼叫？",
@@ -3954,7 +3954,7 @@
  {
   "id": "MC1-0261",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "如何回答一个CQ 呼叫？",
@@ -3970,7 +3970,7 @@
  {
   "id": "MC1-0262",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台操作员小强呼叫另一业余电台并希望与操作员小明通话的方法是：",
@@ -3986,7 +3986,7 @@
  {
   "id": "MC1-0263",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台建立通信后，双方应首先交换的必要信息是：",
@@ -4002,7 +4002,7 @@
  {
   "id": "MC1-0264",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么业余电台建立通信后总是立即交换信号报告？",
@@ -4018,7 +4018,7 @@
  {
   "id": "MC1-0265",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "在现代业余无线电通信中，信号报告均采用“RST 格式”。缩语RST 中的字母R 代表：",
@@ -4034,7 +4034,7 @@
  {
   "id": "MC1-0266",
   "category": "2.2.1",
-  "categoryName": "半导体器件",
+  "categoryName": "CQ呼叫与应答",
   "type": "MC1",
   "selectCount": 1,
   "question": "小明和小强进行CW 和FM 联络，双方的收信机均指示信号强度为“5”。通报时，双方 评价听抄顺畅，没有变调等信号缺陷；通话时，双方认为声音易于辩识，没有明显影响听抄 的失真。此时，双方应当为CW 和FM 通联给出信号报告：",
@@ -4050,7 +4050,7 @@
  {
   "id": "MC1-0267",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台在发起呼叫前应先守听。但是，我们有时会因听不到通信中的某一方而误认为 频率空闲。此时呼叫“CQ”有可能干扰他人联络。为尽量避免这种情况，我们可以：",
@@ -4066,7 +4066,7 @@
  {
   "id": "MC1-0268",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "BH1ZZZ 希望加入两个电台相互之间的联络。正确的方法是：",
@@ -4082,7 +4082,7 @@
  {
   "id": "MC1-0269",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果在联络中听到有个遇险的电台要求插入，你该怎么做？",
@@ -4098,7 +4098,7 @@
  {
   "id": "MC1-0270",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "在请求插入两个电台间的对话之时，一个值得借鉴的经验是：",
@@ -4114,7 +4114,7 @@
  {
   "id": "MC1-0271",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "若发现有业余电台的发射操作技巧不够规范，但还不至于造成严重的干扰和影响，正确 的做法是：",
@@ -4130,7 +4130,7 @@
  {
   "id": "MC1-0272",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台通信受到违法电台或者不明电台的严重干扰。正确的做法是：",
@@ -4146,7 +4146,7 @@
  {
   "id": "MC1-0273",
   "category": "2.2.2",
-  "categoryName": "放大电路",
+  "categoryName": "通联加入与遇险通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果与几十千米以外的某业余电台有很多重要的技术问题和个人情况要交流，应该选用 下列通信方式：",
@@ -4162,7 +4162,7 @@
  {
   "id": "MC1-0274",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "法规和国际业余无线电惯例要求业余电台日志应记载的必要内容是：",
@@ -4178,7 +4178,7 @@
  {
   "id": "MC1-0275",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "法规和国际业余无线电惯例要求业余电台日志应记载的必要内容是：",
@@ -4194,7 +4194,7 @@
  {
   "id": "MC4-0276",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC4",
   "selectCount": 4,
   "question": "业余无线电台交换QSL 卡具有多重意义，包括：",
@@ -4210,7 +4210,7 @@
  {
   "id": "MC4-0277",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC4",
   "selectCount": 4,
   "question": "QSL 卡片应至少涵盖哪些内容：",
@@ -4226,7 +4226,7 @@
  {
   "id": "MC1-0278",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于QSL 卡片的用法，以下说法正确的是：",
@@ -4242,7 +4242,7 @@
  {
   "id": "MC1-0279",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "收到国外寄来的QSL 卡片时，如果信封中夹带有一张或多张IRC，则应：",
@@ -4258,7 +4258,7 @@
  {
   "id": "MC1-0280",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "填写和邮寄QSL 卡片的正确做法是：",
@@ -4274,7 +4274,7 @@
  {
   "id": "MC1-0281",
   "category": "2.2.3",
-  "categoryName": "振荡电路",
+  "categoryName": "电台日志与QSL卡片",
   "type": "MC1",
   "selectCount": 1,
   "question": "交换QSL 卡片时，我们时有遇见一类特殊的无线电爱好者，他们仅向我们寄发收听卡片。 而我们在确认卡片所载内容之后会立即回卡以示敬意。这类爱好者是：",
@@ -4290,7 +4290,7 @@
  {
   "id": "MC1-0282",
   "category": "2.2.4",
-  "categoryName": "电源电路",
+  "categoryName": "中继台通联操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "通过中继台进行通联时，我们应事先设好电台的接收和发射频差，以便顺利应对上行或 下行频率上的各种操作，避免边联络边设置，忙中出错。144 和430MHz 频段业余中继台 的上下行频差分别为：",
@@ -4306,7 +4306,7 @@
  {
   "id": "MC1-0283",
   "category": "2.2.4",
-  "categoryName": "电源电路",
+  "categoryName": "中继台通联操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果通过中继台呼叫一部业余电台，你应当：",
@@ -4322,7 +4322,7 @@
  {
   "id": "MC1-0284",
   "category": "2.2.4",
-  "categoryName": "电源电路",
+  "categoryName": "中继台通联操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余中继台的使用原则是：",
@@ -4338,7 +4338,7 @@
  {
   "id": "MC1-0306",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台在发起呼叫前应先守听一段时间，然后再询问“有人使用频率吗？”，确认没有 应答方可发起呼叫。下列英语短句中不能正确表达这一询问的是：",
@@ -4354,7 +4354,7 @@
  {
   "id": "MC1-0307",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台BH1ZZZ 用FM 或SSB 话音发起CQ 呼叫的方法为：",
@@ -4370,7 +4370,7 @@
  {
   "id": "MC1-0308",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台BH1ZZZ 用话音发起CQ 呼叫的方法为：",
@@ -4386,7 +4386,7 @@
  {
   "id": "MC1-0309",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台BH1ZZZ 用话音呼叫BH8YYY 的方法为：",
@@ -4402,7 +4402,7 @@
  {
   "id": "MC1-0310",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台BH1ZZZ 用话音呼叫BH8YYY 的方法为：",
@@ -4418,7 +4418,7 @@
  {
   "id": "MC1-0311",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立话音通信后，操作员小明打算给对方电台BH1ZZZ “57”的信号报告。他可以这样 讲：",
@@ -4434,7 +4434,7 @@
  {
   "id": "MC1-0312",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立话音通信后，操作员小明打算给对方电台BH1ZZZ “57”的信号报告。他可以这样 讲：",
@@ -4450,7 +4450,7 @@
  {
   "id": "MC1-0313",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立话音通信后，小明打算介绍自己是在成都操作的。他可以这样讲：",
@@ -4466,7 +4466,7 @@
  {
   "id": "MC1-0314",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立话音通信后，小明打算介绍自己是在成都操作的。他可以这样讲：",
@@ -4482,7 +4482,7 @@
  {
   "id": "MC1-0315",
   "category": "2.3.1",
-  "categoryName": "数字电路基础",
+  "categoryName": "话音通联用语",
   "type": "MC1",
   "selectCount": 1,
   "question": "收听业余无线电爱好者的SSB 通联时，我们有时会听到“Cheerio.”、“Ciao ciao.”或 “Do svidaniya.”一类的短句。其含义是：",
@@ -4498,7 +4498,7 @@
  {
   "id": "MC1-0343",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "QRP 操作时如果对方反映信号不好，我们可能会追问是否需要增加功率。此时可发送：",
@@ -4514,7 +4514,7 @@
  {
   "id": "MC1-0344",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如认为QRP 操作足以保证可靠联络，则可与对方协商降低功率。短句为：",
@@ -4530,7 +4530,7 @@
  {
   "id": "MC1-0345",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台以低于5 瓦的功率开展通信研究或追逐奖状时，常在呼号之后附加操作属性 “QRP”。例如：BI9XYZ/QRP。Q 简语“QRP”表示：",
@@ -4546,7 +4546,7 @@
  {
   "id": "MC1-0346",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如果希望对方加快发报速度，我们可以发送：",
@@ -4562,7 +4562,7 @@
  {
   "id": "MC1-0347",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如果对方要求加快发报速度，我们可以通过反问来确认。此时可以发送：",
@@ -4578,7 +4578,7 @@
  {
   "id": "MC1-0348",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如果希望对方放慢发报速度，我们可以发送：",
@@ -4594,7 +4594,7 @@
  {
   "id": "MC1-0349",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如果对方要求放慢发报速度，我们可以通过反问来确认。此时可以发送：",
@@ -4610,7 +4610,7 @@
  {
   "id": "MC1-0350",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "结束当天的通联活动时，业余电台常会发送Q 简语“QRT”。其含义为：",
@@ -4626,7 +4626,7 @@
  {
   "id": "MC1-0351",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在结束联络之前，我们可以询问对方是否还有消息要传达。此时可以发送：",
@@ -4642,7 +4642,7 @@
  {
   "id": "MC1-0352",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "结束联络时，我们可以告诉对方这里已无事。此时可以发送：",
@@ -4658,7 +4658,7 @@
  {
   "id": "MC1-0353",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如希望相约对方参加某个业余无线电活动（如，“木兰围场-通联中国之省”）， 可使用短句：",
@@ -4674,7 +4674,7 @@
  {
   "id": "MC1-0354",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QRV”的含义是：",
@@ -4690,7 +4690,7 @@
  {
   "id": "MC1-0355",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "进行呼叫时，如果没有听清对方呼号，可使用如下短句请求对方重发：",
@@ -4706,7 +4706,7 @@
  {
   "id": "MC1-0356",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QRZ”的含义为：",
@@ -4722,7 +4722,7 @@
  {
   "id": "MC1-0357",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "阅读我国早期业余无线电文献，我们可能发现一种用Q 简语和5 个强度等级来表示的信 号报告。该Q 简语是：",
@@ -4738,7 +4738,7 @@
  {
   "id": "MC1-0358",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如需了解自己的信号是否衰落，可使用短句：",
@@ -4754,7 +4754,7 @@
  {
   "id": "MC1-0359",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSB”的含义为：",
@@ -4770,7 +4770,7 @@
  {
   "id": "MC1-0360",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "小强和小明练习CW。若小强问“我发报的手法有毛病吗？”，他可以发：",
@@ -4786,7 +4786,7 @@
  {
   "id": "MC1-0361",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "小强与小明练习CW。小明认为小强刚才发字母“Y”时手法不好。他可以拍发：",
@@ -4802,7 +4802,7 @@
  {
   "id": "MC1-0362",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "小强与小明练习CW。小明认为小强发报时有砰然的键击声。他可以拍发：",
@@ -4818,7 +4818,7 @@
  {
   "id": "MC1-0363",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSK”的含义为：",
@@ -4834,7 +4834,7 @@
  {
   "id": "MC1-0364",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如需对方电台确认收妥自己发出的消息，可使用短句：",
@@ -4850,7 +4850,7 @@
  {
   "id": "MC1-0365",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSL”的含义为：",
@@ -4866,7 +4866,7 @@
  {
   "id": "MC1-0366",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSO”的含义为：",
@@ -4882,7 +4882,7 @@
  {
   "id": "MC1-0367",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如需了解对方电台可否帮助转信至“xxx 电台”，可使用短句：",
@@ -4898,7 +4898,7 @@
  {
   "id": "MC1-0368",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSP”的含义为：",
@@ -4914,7 +4914,7 @@
  {
   "id": "MC1-0369",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，小明希望小强帮忙守听7074 千赫的FT8 操作，他可以发：",
@@ -4930,7 +4930,7 @@
  {
   "id": "MC1-0370",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，小强告诉小明，他正在7074 千赫守听FT8 联络，他可以发送：",
@@ -4946,7 +4946,7 @@
  {
   "id": "MC1-0371",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如需协商对方改频至nnnn 千赫（或兆赫），可使用短句：",
@@ -4962,7 +4962,7 @@
  {
   "id": "MC1-0372",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "Q 简语“QSY”的含义为：",
@@ -4978,7 +4978,7 @@
  {
   "id": "MC1-0373",
   "category": "2.4.1",
-  "categoryName": "调制方式",
+  "categoryName": "Q简语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如需了解对方电台的位置，可使用短句：",
@@ -4994,7 +4994,7 @@
  {
   "id": "MC1-0374",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者在结束当前联络并互致美好祝愿时经常使用缩语：",
@@ -5010,7 +5010,7 @@
  {
   "id": "MC1-0375",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "如在CW 或其他方式的文字通联中须询问对方的QSL 卡片邮寄地址，我们可以发送：",
@@ -5026,7 +5026,7 @@
  {
   "id": "MC1-0376",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "如需对方重复上次的操作，比如重报呼号或信号报告，我们可使用缩语：",
@@ -5042,7 +5042,7 @@
  {
   "id": "MC1-0377",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信缩语“AHR”的意思是：",
@@ -5058,7 +5058,7 @@
  {
   "id": "MC1-0378",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“业余无线电测向”的缩语是：",
@@ -5074,7 +5074,7 @@
  {
   "id": "MC1-0379",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 联络中交换QSL 信息时，我们可能用到“邮政信箱”这个术语。其缩语是：",
@@ -5090,7 +5090,7 @@
  {
   "id": "MC1-0380",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“QSL 卡片管理局”的缩语是：",
@@ -5106,7 +5106,7 @@
  {
   "id": "MC1-0381",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“CK”，意思是：",
@@ -5122,7 +5122,7 @@
  {
   "id": "MC1-0382",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台发起呼叫时会使用缩语：",
@@ -5138,7 +5138,7 @@
  {
   "id": "MC1-0383",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "形容某个信号来自远地时，爱好者们经常使用缩语：",
@@ -5154,7 +5154,7 @@
  {
   "id": "MC1-0384",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“ES”，意思是：",
@@ -5170,7 +5170,7 @@
  {
   "id": "MC1-0385",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“FB”，意思是：",
@@ -5186,7 +5186,7 @@
  {
   "id": "MC1-0386",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“FER”，意思是：",
@@ -5202,7 +5202,7 @@
  {
   "id": "MC1-0387",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "术语“频率”的缩语是：",
@@ -5218,7 +5218,7 @@
  {
   "id": "MC1-0388",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立CW 联络后，我们经常值交换信号报告之机向对方表示问候。“下午好”的缩语是：",
@@ -5234,7 +5234,7 @@
  {
   "id": "MC1-0389",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立CW 联络后，我们经常值交换信号报告之机向对方表示问候。“晚上好”的缩语是：",
@@ -5250,7 +5250,7 @@
  {
   "id": "MC1-0390",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者在结束当前联络并祝愿对方好运好成绩时经常使用缩语：",
@@ -5266,7 +5266,7 @@
  {
   "id": "MC1-0391",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信缩语“GLD”的意思是：",
@@ -5282,7 +5282,7 @@
  {
   "id": "MC1-0392",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "建立CW 联络后，我们经常值交换信号报告之机向对方表示问候。“早晨好”的缩语是：",
@@ -5298,7 +5298,7 @@
  {
   "id": "MC1-0393",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "有时，我们通联的DX 电台仍使用“GMT”来表示时间。该时间的含义是：",
@@ -5314,7 +5314,7 @@
  {
   "id": "MC1-0394",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信缩语“GN”的意思是：",
@@ -5330,7 +5330,7 @@
  {
   "id": "MC1-0395",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信缩语“GND”的意思是：",
@@ -5346,7 +5346,7 @@
  {
   "id": "MC1-0396",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "每年的12 月下旬，我们常会在CW 联络中听到缩语“HNY”，意思是：",
@@ -5362,7 +5362,7 @@
  {
   "id": "MC1-0397",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“HPE”，意思是：",
@@ -5378,7 +5378,7 @@
  {
   "id": "MC1-0398",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“HPY”或“HPI”，意思是：",
@@ -5394,7 +5394,7 @@
  {
   "id": "MC1-0399",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“快速收发报”的缩语是：",
@@ -5410,7 +5410,7 @@
  {
   "id": "MC1-0400",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台完成当前发送并守听任意电台时应使用缩语：",
@@ -5426,7 +5426,7 @@
  {
   "id": "MC1-0401",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台完成当前发送并守听通联中的对方电台时可使用缩语：",
@@ -5442,7 +5442,7 @@
  {
   "id": "MC1-0402",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中表达“非常感谢”之意时我们发送：",
@@ -5458,7 +5458,7 @@
  {
   "id": "MC1-0403",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信缩语“NW”的意思是：",
@@ -5474,7 +5474,7 @@
  {
   "id": "MC1-0404",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，我们有时称对方电台的操作员为“old man”。这是将对方比作亲密无间的队友， 因此为“老朋友”、“老伙计”之意且无关年龄。这个称呼的缩语是：",
@@ -5490,7 +5490,7 @@
  {
   "id": "MC1-0405",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“操作员”的缩语是：",
@@ -5506,7 +5506,7 @@
  {
   "id": "MC1-0406",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 日常通联中，适当使用带“请”字的祈使句可以活跃通联气氛。“请”的缩语是：",
@@ -5522,7 +5522,7 @@
  {
   "id": "MC1-0407",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "与“QSL”类似，如果完全抄收了对方所发的消息，我们常以起始语“Roger”开启新的 会话。这可向对方主动传达确认之意。“Roger”的缩语是：",
@@ -5538,7 +5538,7 @@
  {
   "id": "MC1-0408",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电业务中，“SAE”的含义为：",
@@ -5554,7 +5554,7 @@
  {
   "id": "MC1-0409",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者寄送QSL 卡片时常会提及缩语“SASE”，其含义为：",
@@ -5570,7 +5570,7 @@
  {
   "id": "MC1-0410",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在通联中，如需更正刚才发错的内容，我们通常以“抱歉”开启会话，缩语为：",
@@ -5586,7 +5586,7 @@
  {
   "id": "MC1-0411",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“温度”的缩语是：",
@@ -5602,7 +5602,7 @@
  {
   "id": "MC1-0412",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“谢谢”的缩语是：",
@@ -5618,7 +5618,7 @@
  {
   "id": "MC1-0413",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“谢谢你”的缩语是：",
@@ -5634,7 +5634,7 @@
  {
   "id": "MC1-0414",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "“你的”或者“你是”可用缩语表示为：",
@@ -5650,7 +5650,7 @@
  {
   "id": "MC1-0415",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在CW 通联中，我们有时会抄到缩语“WL”，意思是：",
@@ -5666,7 +5666,7 @@
  {
   "id": "MC1-0416",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "收听CW 或SSB 联络，我们有时会听到缩语“XYL”。其含义是：",
@@ -5682,7 +5682,7 @@
  {
   "id": "MC1-0417",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "有一类业余无线电操作员享有称呼“YL”。而有些业余无线电竞赛也为这些人士制定了专 享的规则。缩语“YL”的含义是：",
@@ -5698,7 +5698,7 @@
  {
   "id": "MC1-0418",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "术语“单元”通常指天线振子。其缩语是：",
@@ -5714,7 +5714,7 @@
  {
   "id": "MC1-0419",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写DP 代表：",
@@ -5730,7 +5730,7 @@
  {
   "id": "MC1-0420",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写GP 代表：",
@@ -5746,7 +5746,7 @@
  {
   "id": "MC1-0421",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写VER 代表：",
@@ -5762,7 +5762,7 @@
  {
   "id": "MC1-0422",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写LW 代表：",
@@ -5778,7 +5778,7 @@
  {
   "id": "MC1-0423",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写YAGI 代表：",
@@ -5794,7 +5794,7 @@
  {
   "id": "MC1-0424",
   "category": "2.4.2",
-  "categoryName": "发射与接收",
+  "categoryName": "通联常用缩语",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电通联中探讨天线时，缩写BEAM 代表：",
@@ -5810,7 +5810,7 @@
  {
   "id": "MC1-0425",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别（class of emission）是指用标准符号标示的某发射的一组特性，例如主载波调 制方式，调制信号，被发送信息的类型以及其他适用的信号特性。表示CW 报的发射类别 是：",
@@ -5826,7 +5826,7 @@
  {
   "id": "MC1-0426",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别（class of emission）是指用标准符号标示的某发射的一组特性，例如主载波调 制方式，调制信号，被发送信息的类型以及其他适用的信号特性。表示单边带话的发射类别 是：",
@@ -5842,7 +5842,7 @@
  {
   "id": "MC1-0427",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别（class of emission）是指用标准符号标示的某发射的一组特性，例如主载波调 制方式，调制信号，被发送信息的类型以及其他适用的信号特性。表示用单边带话传输的 SSTV 信号的发射类别是：",
@@ -5858,7 +5858,7 @@
  {
   "id": "MC1-0428",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别（class of emission）是指用标准符号标示的某发射的一组特性，例如主载波调 制方式，调制信号，被发送信息的类型以及其他适用的信号特性。表示调频话的发射类别是：",
@@ -5874,7 +5874,7 @@
  {
   "id": "MC1-0429",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别是指用标准符号标示的某发射的一组特性，例如主载波调制方式，调制信号， 被发送信息的类型以及其他适用的信号特性。表示用调频话传输的SSTV 信号的发射类别是：",
@@ -5890,7 +5890,7 @@
  {
   "id": "MC1-0430",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射类别是指用标准符号标示的某发射的一组特性，例如主载波调制方式，调制信号， 被发送信息的类型以及其他适用的信号特性。表示调频ATV 信号的发射类别是：",
@@ -5906,7 +5906,7 @@
  {
   "id": "MC1-0431",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "带外发射是指：",
@@ -5922,7 +5922,7 @@
  {
   "id": "MC1-0432",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电通信中三种最基本调制的缩写是AM、FM 和PM。它们的中文名称是：",
@@ -5938,7 +5938,7 @@
  {
   "id": "MC1-0433",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪种调制方式被广泛应用于VHF 或UHF 本地通联？",
@@ -5954,7 +5954,7 @@
  {
   "id": "MC1-0434",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪种调制方式被广泛应用于长距离和弱信号情况下的VHF 或UHF 话音通联？",
@@ -5970,7 +5970,7 @@
  {
   "id": "MC1-0435",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪种调制方式被广泛应用于HF 话音通联？",
@@ -5986,7 +5986,7 @@
  {
   "id": "MC1-0436",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "与FM 相比，SSB 方式的优点是什么？",
@@ -6002,7 +6002,7 @@
  {
   "id": "MC1-0437",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "相比SSB 方式，FM 的主要缺点是什么？",
@@ -6018,7 +6018,7 @@
  {
   "id": "MC1-0438",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "在VHF 和UHF 频段进行SSB 通联通常选用哪个边带？",
@@ -6034,7 +6034,7 @@
  {
   "id": "MC1-0439",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "在14MHz 及以上HF 频段进行语音通信通常选用哪个边带？",
@@ -6050,7 +6050,7 @@
  {
   "id": "MC1-0440",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "在7MHz 及以下频段进行语音通信通常选用哪个边带？",
@@ -6066,7 +6066,7 @@
  {
   "id": "MC1-0441",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么业余电台在10.1MHz 以下频段使用下边带进行话音通联，而在10.1MHz 以上频 段却使用上边带？",
@@ -6082,7 +6082,7 @@
  {
   "id": "MC1-0442",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "发起SSB 呼叫时，你与周边电台的频率间隔应至少为：",
@@ -6098,7 +6098,7 @@
  {
   "id": "MC1-0443",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪种调制方式可以纳入调幅（AM）的范畴？",
@@ -6114,7 +6114,7 @@
  {
   "id": "MC1-0444",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电业务中，有种通信方式的缩写是CW。其含义为：",
@@ -6130,7 +6130,7 @@
  {
   "id": "MC1-0445",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪种调制方式拥有最窄的发射带宽？",
@@ -6146,7 +6146,7 @@
  {
   "id": "MC1-0446",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台一般不用调频话方式进行莫尔斯电码通联。这是因为：",
@@ -6162,7 +6162,7 @@
  {
   "id": "MC1-0447",
   "category": "2.5.1",
-  "categoryName": "天线参数",
+  "categoryName": "发射类别与调制方式",
   "type": "MC1",
   "selectCount": 1,
   "question": "无论是FM 还是SSB 调制，向发射机的话筒输入端施加10 倍于规定输入电压的音频信 号，最可能的结果是：",
@@ -6178,7 +6178,7 @@
  {
   "id": "MC3-0512",
   "category": "2.6.3",
-  "categoryName": "馈线与匹配",
+  "categoryName": "数字语音与数据通信",
   "type": "MC3",
   "selectCount": 3,
   "question": "Yaesu System Fusion 简称YSF，是数字语音和数据传输相互融合的一种通信方式，特 点是：",
@@ -6194,7 +6194,7 @@
  {
   "id": "MC4-0513",
   "category": "2.6.3",
-  "categoryName": "馈线与匹配",
+  "categoryName": "数字语音与数据通信",
   "type": "MC4",
   "selectCount": 4,
   "question": "Icom D-STAR System 提供了一种数据通信方式，特点是：",
@@ -6210,7 +6210,7 @@
  {
   "id": "MC3-0514",
   "category": "2.6.3",
-  "categoryName": "馈线与匹配",
+  "categoryName": "数字语音与数据通信",
   "type": "MC3",
   "selectCount": 3,
   "question": "FreeDV 是一种数字语音方式。其特点是：",
@@ -6226,7 +6226,7 @@
  {
   "id": "MC4-0515",
   "category": "2.6.4",
-  "categoryName": "驻波比",
+  "categoryName": "数字图像通信",
   "type": "MC4",
   "selectCount": 4,
   "question": "数字业余电视（DATV）是将数字音视频压缩编码实验用于实时图像通信的一种方式。通 过卫星转发器进行DATV 联络时，爱好者们普遍选用DVB-S2 协议，调制方式可以是：",
@@ -6242,7 +6242,7 @@
  {
   "id": "MC1-0516",
   "category": "2.6.4",
-  "categoryName": "驻波比",
+  "categoryName": "数字图像通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "使用DRM 协议进行数字慢扫描电视（DSSTV）通信时，爱好者总是倾向于通过单边带 而非调频话方式来传输在音频范围内生成的DSSTV 基带。主要原因是：",
@@ -6258,7 +6258,7 @@
  {
   "id": "MC1-0565",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "什么是收发信机？",
@@ -6274,7 +6274,7 @@
  {
   "id": "MC2-0566",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC2",
   "selectCount": 2,
   "question": "一个可以工作的无线电接收系统至少包含哪些部件？",
@@ -6290,7 +6290,7 @@
  {
   "id": "MC3-0567",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC3",
   "selectCount": 3,
   "question": "一个可以工作的无线电发射系统至少包含哪些部件？",
@@ -6306,7 +6306,7 @@
  {
   "id": "MC1-0568",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么业余无线电收发信机所用的直流电源线要尽量短，尽量粗？",
@@ -6322,7 +6322,7 @@
  {
   "id": "MC1-0569",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "单工操作（simplex operation）是指：在一条电信通路的两个方向上交替进行传输的一 种工作方式。下列通信采用单工操作方式：",
@@ -6338,7 +6338,7 @@
  {
   "id": "MC1-0570",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "双工操作（duplex operation）是指：一条电信通路的两个方向能同时进行传输的工作方 式。下列通信采用双工操作方式：",
@@ -6354,7 +6354,7 @@
  {
   "id": "MC1-0571",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "半双工操作（semi-duplex operation）是指：电路的一端用单工操作，另一端用双工操 作的一种工作方式。下列通信采用半双工操作方式：",
@@ -6370,7 +6370,7 @@
  {
   "id": "MC1-0572",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机中的PTT 是指什么信号？",
@@ -6386,7 +6386,7 @@
  {
   "id": "MC1-0573",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上或设置菜单中的符号SQL 代表什么功能？",
@@ -6402,7 +6402,7 @@
  {
   "id": "MC1-0574",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机设置静噪功能的目的是什么？",
@@ -6418,7 +6418,7 @@
  {
   "id": "MC1-0575",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "需要聆听非常微弱的FM 信号时应如何设置收发信机的静噪？",
@@ -6434,7 +6434,7 @@
  {
   "id": "MC1-0576",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "用带有静噪功能的FM 收发信机接收FM 话音，我们有时会在发射方松开PTT 的时候听 到一种比较短促的“嘶”或“喀拉”的噪声拖尾。这是因为：",
@@ -6450,7 +6450,7 @@
  {
   "id": "MC1-0577",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上或设置菜单中的符号VOL 代表什么功能？",
@@ -6466,7 +6466,7 @@
  {
   "id": "MC1-0578",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上或设置菜单中的符号VOX 代表什么功能？",
@@ -6482,7 +6482,7 @@
  {
   "id": "MC1-0579",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "既然收发信机已经具备PTT 功能，那为什么有些机型还要提供VOX？",
@@ -6498,7 +6498,7 @@
  {
   "id": "MC1-0580",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "某些对讲机具有发送CTCSS 码的功能。缩写CTCSS 指的是：",
@@ -6514,7 +6514,7 @@
  {
   "id": "MC1-0581",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "某些对讲机具有发送DTMF 码的功能。缩写DTMF 指的是：",
@@ -6530,7 +6530,7 @@
  {
   "id": "MC2-0582",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC2",
   "selectCount": 2,
   "question": "亚音和数字亚音静噪技术都是在调频发射机所发射的语音信号上附加一个人耳不易察觉 的低频信号并用来选通接收机的静噪。它们所对应的收发信机设置菜单项有：",
@@ -6546,7 +6546,7 @@
  {
   "id": "MC1-0583",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "有些调频接收机的参数设置菜单有NFM 和WFM 两种选择。它们的含义是：",
@@ -6562,7 +6562,7 @@
  {
   "id": "MC1-0584",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "在一些VHF/UHF 业余无线电调频手持对讲机或车载电台的设置菜单中有“全频偏”和“半 频偏”的选项。其意义是：",
@@ -6578,7 +6578,7 @@
  {
   "id": "MC3-0585",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC3",
   "selectCount": 3,
   "question": "如果对方报告你的调频电台发射的信号听起来失真严重，可辨度差，原因可能包括：",
@@ -6594,7 +6594,7 @@
  {
   "id": "MC1-0586",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如需快速切换至你常用的某个频率，应当如何设置你的电台？",
@@ -6610,7 +6610,7 @@
  {
   "id": "MC1-0587",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "车载电台的直流电源负极应当接在哪里？",
@@ -6626,7 +6626,7 @@
  {
   "id": "MC1-0588",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "有时，装在汽车上的移动电台可能放出随引擎转速而变的尖利啸声，其来源于：",
@@ -6642,7 +6642,7 @@
  {
   "id": "MC1-0589",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果别的业余电台报告说你的手持电台发射的FM 信号的频偏过大，你应当怎么做？",
@@ -6658,7 +6658,7 @@
  {
   "id": "MC1-0590",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果其他电台报告说你的发射干扰了相邻频率的通信。你应当做的是：",
@@ -6674,7 +6674,7 @@
  {
   "id": "MC1-0591",
   "category": "3.1.1",
-  "categoryName": "电波传播方式",
+  "categoryName": "收发信机基础与调频操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果其他电台报告说你在2 米波段的信号本来很强，但是突然就变弱甚至难以辨别了， 你应当怎么做？",
@@ -6690,7 +6690,7 @@
  {
   "id": "MC1-0598",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果进行SSB 或CW 通联时周边环境嘈杂，哪种设备可以替代电台上的扬声器，改善话 音抄收？",
@@ -6706,7 +6706,7 @@
  {
   "id": "MC1-0599",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "全功能小型收发信机的面板上常有缩写为“NB”和“SQL”的功能，它们有什么不同？",
@@ -6722,7 +6722,7 @@
  {
   "id": "MC1-0600",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "某些车辆的火花塞辐射脉冲干扰。这可能导致收信机的AGC 过早起控，使正在接收的 SSB 或CW 信号受到压制，进而影响听抄。遇到这种情况，你应当如何设置你的电台？",
@@ -6738,7 +6738,7 @@
  {
   "id": "MC1-0601",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "全功能小型收发信机面板上的“MODE”代表什么功能：",
@@ -6754,7 +6754,7 @@
  {
   "id": "MC1-0602",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上的符号ATT 代表什么功能？",
@@ -6770,7 +6770,7 @@
  {
   "id": "MC1-0603",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上的符号AGC 代表什么功能？",
@@ -6786,7 +6786,7 @@
  {
   "id": "MC1-0604",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "既然全功能收信机具有AGC 功能，那为什么好多机型还要装设衰减（ATT）开关？",
@@ -6802,7 +6802,7 @@
  {
   "id": "MC2-0605",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于接收机的“过载”现象，以下描述正确的是：",
@@ -6818,7 +6818,7 @@
  {
   "id": "MC1-0606",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "应关闭接收机AGC 功能的情况是：",
@@ -6834,7 +6834,7 @@
  {
   "id": "MC1-0607",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "应选择较短的AGC 时间常数的情况是：",
@@ -6850,7 +6850,7 @@
  {
   "id": "MC1-0608",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "应选择较长的AGC 时间常数的情况是：",
@@ -6866,7 +6866,7 @@
  {
   "id": "MC1-0609",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "多数小型全功能收发信机的面板上都可以看到符号PRE，其代表什么功能？",
@@ -6882,7 +6882,7 @@
  {
   "id": "MC1-0610",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上的符号ALC 代表什么功能？",
@@ -6898,7 +6898,7 @@
  {
   "id": "MC1-0611",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "在单边带发信机中，发信自动电平控制（ALC）的主要作用是：",
@@ -6914,7 +6914,7 @@
  {
   "id": "MC1-0612",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台进行单边带话音通信时，如果对方反映虽然己方的讲话基本可辨，但是在话音 的间隙中夹杂嘈杂的背景噪声。这时应当：",
@@ -6930,7 +6930,7 @@
  {
   "id": "MC1-0613",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "即使打开了发射机的ALC，将话筒的增益调得过高仍可能导致：",
@@ -6946,7 +6946,7 @@
  {
   "id": "MC1-0614",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么使用单边带收发信机发送AFSK 信号时需要关闭ALC？",
@@ -6962,7 +6962,7 @@
  {
   "id": "MC1-0615",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "单边带发信机的语音压缩功能有什么作用？",
@@ -6978,7 +6978,7 @@
  {
   "id": "MC1-0616",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上的符号PROC 代表什么功能？",
@@ -6994,7 +6994,7 @@
  {
   "id": "MC1-0617",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "发信时，若话音压缩调整不当可能带来什么问题?",
@@ -7010,7 +7010,7 @@
  {
   "id": "MC1-0618",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么用单边带收发信机发送AFSK 信号时应关闭语音压缩功能？",
@@ -7026,7 +7026,7 @@
  {
   "id": "MC1-0619",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台以发射的方法测量发射功率和天线驻波比时必须留意并做到的是：",
@@ -7042,7 +7042,7 @@
  {
   "id": "MC1-0620",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "单边带业余电台测试检查天线驻波比需要发射平稳的连续信号。文明的作法是：",
@@ -7058,7 +7058,7 @@
  {
   "id": "MC1-0621",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "收发信机面板上的符号AT 或者TUNE 代表什么功能？",
@@ -7074,7 +7074,7 @@
  {
   "id": "MC1-0622",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "使用射频/中频增益和音频增益分开控制的通信接收机进行收听时，可以这样设置：",
@@ -7090,7 +7090,7 @@
  {
   "id": "MC1-0623",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "HF 通信与VHF 或UHF 通信相比，最大的不同是什么？",
@@ -7106,7 +7106,7 @@
  {
   "id": "MC1-0624",
   "category": "3.1.3",
-  "categoryName": "电离层传播",
+  "categoryName": "全功能收发信机操作",
   "type": "MC1",
   "selectCount": 1,
   "question": "下面哪种方法可以减小话筒或耳机用音频电缆可能感生的射频电流？",
@@ -7122,7 +7122,7 @@
  {
   "id": "MC1-0649",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "发射天线的作用是：",
@@ -7138,7 +7138,7 @@
  {
   "id": "MC1-0650",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收天线的作用是：",
@@ -7154,7 +7154,7 @@
  {
   "id": "MC2-0651",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于天线的增益，以下说法正确的是：",
@@ -7170,7 +7170,7 @@
  {
   "id": "MC1-0652",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "以dBi 为单位的天线增益是指：",
@@ -7186,7 +7186,7 @@
  {
   "id": "MC1-0653",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "什么是“理想点源天线”？对业余无线电又有什么意义？",
@@ -7202,7 +7202,7 @@
  {
   "id": "MC1-0654",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "以dBd 为单位的天线增益是指：",
@@ -7218,7 +7218,7 @@
  {
   "id": "MC1-0655",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "半波振子是能够辐射电波的一种实用天线。为了获得最低输入阻抗，人们通常从中点为 这种振子馈电。这就构成了具有两个1/4 波长不同电极性区域的谐振偶极天线，亦称半波长 偶极天线。这种天线的增益规定为0dBd。那么相比理想点源天线，其增益为：",
@@ -7234,7 +7234,7 @@
  {
   "id": "MC1-0656",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "某商品天线说明书给出的天线增益指标以dB 为单位。其意义为：",
@@ -7250,7 +7250,7 @@
  {
   "id": "MC1-0657",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "我们之所以称垂直接地天线为“全向天线”，是因为：",
@@ -7266,7 +7266,7 @@
  {
   "id": "MC1-0658",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "如需垂直接地天线在大体为零仰角的水平发射方向上具有主辐射瓣并可以与同轴电缆直 接耦合，则振子长度应选为：",
@@ -7282,7 +7282,7 @@
  {
   "id": "MC2-0659",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于振子长度为1/4 波长的垂直接地天线的最大辐射方向，以下描述正确的是：",
@@ -7298,7 +7298,7 @@
  {
   "id": "MC2-0660",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于大多数手持电台随附的“橡胶天线”，以下说法正确的是：",
@@ -7314,7 +7314,7 @@
  {
   "id": "MC1-0661",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "在车内使用手持电台和俗称“橡胶天线”的柔性天线进行通信可能遇到什么问题？",
@@ -7330,7 +7330,7 @@
  {
   "id": "MC1-0662",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果架设天线时发现场地附近有电线等市电供电装置，你该怎么办？",
@@ -7346,7 +7346,7 @@
  {
   "id": "MC1-0663",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "垂直接地天线（GP）由电气长度为1/4 波长的垂直振子加上一个“镜像地平面”构成， 因十分简洁而被大量应用于手持和车载业余通信。但是，这种天线的工作有效性往往不如理 论预计的那么完美，特别是在波长较长的波段。造成这种情况的原因及改善方法是：",
@@ -7362,7 +7362,7 @@
  {
   "id": "MC1-0664",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于天线的加载，以下描述正确的是",
@@ -7378,7 +7378,7 @@
  {
   "id": "MC1-0665",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "谐振的垂直接地天线的振子长度最短也要1/4 波长。如果架设天线时因条件受限而不得 不将振子缩短，那么在振子之中串入电感可以补偿失去的感抗，使天线谐振在所需频率上。 为了提高发射效率，应在振子的什么位置串入电感需根据架设条件择优确定。下图给出三种 加感方案。假设振子（灰色部分）均等长，则A、B、C 三种方案按发射效率可排列为：",
@@ -7394,7 +7394,7 @@
  {
   "id": "MC1-0666",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲天线增益6.15dBi，乙天线增益1dBd。若两副天线按同样条件架设并用同样功率来驱 动，则在它们最大发射方向的同一远方地点接收时，两天线给出的信号功率关系为：",
@@ -7410,7 +7410,7 @@
  {
   "id": "MC1-0667",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲天线增益0dBd，乙天线增益2dBi。若两副天线按同样条件架设用用同样功率来驱动， 则在它们最大发射方向的同一远方地点接收时，两天线给出的信号功率关系为：",
@@ -7426,7 +7426,7 @@
  {
   "id": "MC1-0668",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "有两款VHF 垂直全向天线作发射之用。甲天线增益为4.5dBd，而乙天线的是5.85dBi。 它们在远处某接收天线中产生的信号功率有什么不同？",
@@ -7442,7 +7442,7 @@
  {
   "id": "MC1-0669",
   "category": "3.3.1",
-  "categoryName": "频率与波长",
+  "categoryName": "天线基础与增益",
   "type": "MC1",
   "selectCount": 1,
   "question": "有两款VHF 垂直全向天线作发射之用。甲天线增益为2.9dBd，而乙天线的是5.85dBi。 它们在远处某接收天线中产生的信号功率有什么不同？",
@@ -7458,7 +7458,7 @@
  {
   "id": "MC3-0670",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC3",
   "selectCount": 3,
   "question": "业余无线电爱好者讨论天线系统时常会提及术语“驻波比（SWR）”。其含义为：",
@@ -7474,7 +7474,7 @@
  {
   "id": "MC1-0671",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "通联时，如果收发信机的SWR 表显示读数4:1，则意味着：",
@@ -7490,7 +7490,7 @@
  {
   "id": "MC2-0672",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC2",
   "selectCount": 2,
   "question": "小强用长度不短于1/4 波长的50 欧馈线连接收发信机和天线。发信时，他发现SWR 表 的指示为3:1。该值意味着：",
@@ -7506,7 +7506,7 @@
  {
   "id": "MC1-0673",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "多数发射机都在SWR 超过一定值时降低输出功率。这是为了：",
@@ -7522,7 +7522,7 @@
  {
   "id": "MC1-0674",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "用同轴电缆连接天线时，为什么驻波比趋于1:1 为好？",
@@ -7538,7 +7538,7 @@
  {
   "id": "MC1-0675",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪种情况可能导致业余发信机显示的驻波比不稳定？",
@@ -7554,7 +7554,7 @@
  {
   "id": "MC1-0676",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "SSB 通联时，即使天馈系统没有故障，有时候SWR 显示也不稳定。这是因为：",
@@ -7570,7 +7570,7 @@
  {
   "id": "MC1-0677",
   "category": "3.3.2",
-  "categoryName": "业余频段划分",
+  "categoryName": "驻波比与阻抗匹配",
   "type": "MC1",
   "selectCount": 1,
   "question": "我们都知道发射机与天线间的馈线应当与天线阻抗匹配。否则，馈线中的驻波会使沿线 各处的电压和电流周期性起伏。然而，业余电台所用的发射机与电网中的发电机同属交流电 源，我们却从未在连到电网的电线中观察到驻波现象。这是为什么？",
@@ -7586,7 +7586,7 @@
  {
   "id": "MC1-0678",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于业余无线电通信，最适合的同轴电缆特性阻抗为：",
@@ -7602,7 +7602,7 @@
  {
   "id": "MC1-0679",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "传输线具有多种类型，但是为什么架设业余电台通常选用同轴电缆？",
@@ -7618,7 +7618,7 @@
  {
   "id": "MC2-0680",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC2",
   "selectCount": 2,
   "question": "在为业余电台选购用作天线馈线的同轴电缆时应关注什么电气参数？",
@@ -7634,7 +7634,7 @@
  {
   "id": "MC2-0681",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC2",
   "selectCount": 2,
   "question": "我们都知道要为业余电台选配损耗较低的馈线。但是，馈线的损耗会导致什么问题？",
@@ -7650,7 +7650,7 @@
  {
   "id": "MC2-0682",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC2",
   "selectCount": 2,
   "question": "受潮是同轴电缆失效损坏的主要原因。湿气渗透会导致：",
@@ -7666,7 +7666,7 @@
  {
   "id": "MC1-0683",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "将同轴电缆装于室外时，为什么要求电缆外皮（护套）能够耐受紫外线？",
@@ -7682,7 +7682,7 @@
  {
   "id": "MC1-0684",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "相比填充有机介质的同轴电缆，空气介质同轴电缆的劣势是什么？",
@@ -7698,7 +7698,7 @@
  {
   "id": "MC1-0685",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果通过同轴电缆的信号频率升高，则同轴电缆的",
@@ -7714,7 +7714,7 @@
  {
   "id": "MC1-0686",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下给出了一些同等外径的馈线。其中哪一种在VHF/UHF 频段损耗更低？",
@@ -7730,7 +7730,7 @@
  {
   "id": "MC1-0687",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于400MHz 或更高频率的信号，应当优先选用的同轴电缆连接器是：",
@@ -7746,7 +7746,7 @@
  {
   "id": "MC1-0688",
   "category": "3.3.3",
-  "categoryName": "频段使用规划",
+  "categoryName": "馈线特性与损耗",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于M 型同轴电缆连接器，以下说法正确的是：",
@@ -7762,7 +7762,7 @@
  {
   "id": "MC2-0689",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于垂直天线，以下说法正确的是：",
@@ -7778,7 +7778,7 @@
  {
   "id": "MC2-0690",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于水平极化偶极天线，以下描述正确的是：",
@@ -7794,7 +7794,7 @@
  {
   "id": "MC1-0691",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，均使用1/2 波长水平偶极天线进行UHF 通联。现其中一 方改用1/2 波长垂直偶极天线，则改变前后的通信效果有什么不同？",
@@ -7810,7 +7810,7 @@
  {
   "id": "MC1-0692",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用1/2 波长水平和垂直偶极天线进行UHF 通联。 现双方都改用1/2 波长垂直偶极天线，则改变前后的通信效果有什么不同？",
@@ -7826,7 +7826,7 @@
  {
   "id": "MC1-0693",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用1/2 波长水平和垂直偶极天线进行UHF 通联。 现双方都改用1/2 波长水平偶极天线，则改变前后的通信效果有什么不同？",
@@ -7842,7 +7842,7 @@
  {
   "id": "MC1-0694",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和右旋圆极化天线彼此对指进行UHF 通联。现双方都改用左旋圆极化天线，则改变前后的通信效果有什么不同？",
@@ -7858,7 +7858,7 @@
  {
   "id": "MC1-0695",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和右旋圆极化天线彼此对指进行UHF 通联。现双方都改用右旋圆极化天线，则改变前后的通信效果有什么不同？",
@@ -7874,7 +7874,7 @@
  {
   "id": "MC1-0696",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和半波长水平偶极天线彼此对指进行 UHF 通联。现乙台改用半波长垂直极化天线，则改变前后的通信效果有什么不同？",
@@ -7890,7 +7890,7 @@
  {
   "id": "MC1-0697",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和半波长水平偶极天线彼此对指进行 UHF 通联。现甲台改用右旋圆极化天线，则改变前后的通信效果有什么不同？",
@@ -7906,7 +7906,7 @@
  {
   "id": "MC1-0698",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和半波长水平偶极天线彼此对指进行 UHF 通联。现乙台改用右旋圆极化天线，则改变前后的通信效果有什么不同？",
@@ -7922,7 +7922,7 @@
  {
   "id": "MC1-0699",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和半波长水平偶极天线彼此对指进行 UHF 通联。现乙台改用左旋圆极化天线，则改变前后的通信效果有什么不同？",
@@ -7938,7 +7938,7 @@
  {
   "id": "MC1-0700",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲、乙业余电台相距10 千米，分别使用左旋圆极化和右旋圆极化天线彼此对指进行UHF 通联。现双方均改用半波长水平偶极天线，则改变前后的通信效果有什么不同？",
@@ -7954,7 +7954,7 @@
  {
   "id": "MC1-0701",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "假设接收和发射天线均使用半波长偶极天线，则在地面台站间的近距离通联中，接收和 发射天线的最佳极化方式应当安排为：",
@@ -7970,7 +7970,7 @@
  {
   "id": "MC1-0702",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "右旋极化波是指在垂直于传播方向的任意平面上，沿传播方向观察时，电场矢量为随时 间向右（顺时针）旋转的椭圆或圆极化波。如果地面上某业余电台在观测业余卫星时发现从 卫星到达该台的无线电波的电场是顺时针旋转的，则该信号的极化方式为：",
@@ -7986,7 +7986,7 @@
  {
   "id": "MC1-0703",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "在视距通联中，已知发射天线为指向接收点的左旋圆极化天线，接收天线的最佳极化方 式为：",
@@ -8002,7 +8002,7 @@
  {
   "id": "MC1-0704",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "某卫星下行链路采用右旋圆极化天线，从北向南飞行，天线始终指向地球的南极。如果 地面上某业余电台采用圆极化天线自动跟踪该卫星，则该台所用天线的最佳极化方式应当为：",
@@ -8018,7 +8018,7 @@
  {
   "id": "MC1-0705",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "已知某卫星下行信号的发射天线是指向地面的偶极天线。由于卫星不断旋转，地面台站 所收电波的极化方向就会不断变化。为了不至极化问题致使接收中断，接收天线可以是：",
@@ -8034,7 +8034,7 @@
  {
   "id": "MC1-0706",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "某业余电台使用半波垂直偶极天线通联时，对方所收信号的强度为S4。现发射功率不变， 发信方改用增益为8.15dBi 的八木天线（最大辐射方向和极化均不变），则对方所收信号的 强度变为：【提示：收信机信号强度指示从S1 至S9 每档增加6dB】",
@@ -8050,7 +8050,7 @@
  {
   "id": "MC1-0707",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "某业余电台使用半波长垂直偶极天线发射时，对方所收信号的强度为S4。现发射功率不 变，发信方改用增益为12dBd 的八木天线（最大辐射方向和极化均不变），则对方所收信号 的强度变为：【提示：收信机信号强度指示从S1 至S9 每档增加6dB】",
@@ -8066,7 +8066,7 @@
  {
   "id": "MC1-0708",
   "category": "3.3.4",
-  "categoryName": "频率容限",
+  "categoryName": "天线类型、极化与架设",
   "type": "MC1",
   "selectCount": 1,
   "question": "两位业余爱好者使用半波长垂直偶极天线相互通联，双方所收信号的强度均为S4。现双 方发射功率不变，都改用增益为8.15dBi 的八木天线（最大辐射方向和极化均不变）再次联 络，则双方信号的强度变为：【提示：收信机信号强度指示S1 至S9 每档增加6dB】",
@@ -8082,7 +8082,7 @@
  {
   "id": "MC1-0709",
   "category": "3.3.5",
-  "categoryName": "杂散发射",
+  "categoryName": "多径传播与衰落",
   "type": "MC1",
   "selectCount": 1,
   "question": "即便是在辽阔的平原或广袤的戈壁，我们所收本地VHF/UHF 信号的强度也会伴随设备的 移动而发生周期性的变化。主要原因是：",
@@ -8098,7 +8098,7 @@
  {
   "id": "MC1-0710",
   "category": "3.3.5",
-  "categoryName": "杂散发射",
+  "categoryName": "多径传播与衰落",
   "type": "MC1",
   "selectCount": 1,
   "question": "在VHF/UHF 频段通联时的一个现象，如果远方电台给出的信号报告很差，则仅需移动几 步或将工作频率改变数十千赫就可能显著改善通信效果。这是因为：",
@@ -8114,7 +8114,7 @@
  {
   "id": "MC1-0711",
   "category": "3.3.5",
-  "categoryName": "杂散发射",
+  "categoryName": "多径传播与衰落",
   "type": "MC1",
   "selectCount": 1,
   "question": "多径传播对UHF 或VHF 波段数据通信的影响是：",
@@ -8130,7 +8130,7 @@
  {
   "id": "MC2-0712",
   "category": "3.3.5",
-  "categoryName": "杂散发射",
+  "categoryName": "多径传播与衰落",
   "type": "MC2",
   "selectCount": 2,
   "question": "使用VSB 方式进行ATV 通信时，即使信号相对较强，有时所收图像的边缘也有重影。 这是因为：",
@@ -8146,7 +8146,7 @@
  {
   "id": "MC1-0713",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "决定超短波视距传播距离极限的主要因素是：",
@@ -8162,7 +8162,7 @@
  {
   "id": "MC1-0714",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "有时，相隔数百千米的业余电台可以实现VHF/UHF 超视距直接联络。可能的原因是：",
@@ -8178,7 +8178,7 @@
  {
   "id": "MC1-0715",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "有时，我们可以在6 米或2 米业余波段中收到上千千米外的“超视距传播”信号。这与 下列哪种现象密切相关？",
@@ -8194,7 +8194,7 @@
  {
   "id": "MC1-0716",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "是什么导致了对流层的大气波导现象？",
@@ -8210,7 +8210,7 @@
  {
   "id": "MC1-0717",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果你收到了一个上千千米外的VHF 信号，最可能的原因是：",
@@ -8226,7 +8226,7 @@
  {
   "id": "MC1-0718",
   "category": "3.3.6",
-  "categoryName": "发射带宽",
+  "categoryName": "超短波传播",
   "type": "MC1",
   "selectCount": 1,
   "question": "有时，VHF/UHF 业余波段中可能出现远达500 千米的“超视距传播”信号。这与下列哪 种现象密切相关？",
@@ -8242,7 +8242,7 @@
  {
   "id": "MC1-0819",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "自制业余无线电发射设备，在经无线电检测机构检验合格并取得电台执照之前，应在调 测时在设备的天线端口连接（或在串联必要的仪表之后连接）：",
@@ -8258,7 +8258,7 @@
  {
   "id": "MC1-0820",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "在无线电发射机中，调制器的作用是：",
@@ -8274,7 +8274,7 @@
  {
   "id": "MC4-0821",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC4",
   "selectCount": 4,
   "question": "保证业余无线电通信接收机优良接收能力的主要因素是：",
@@ -8290,7 +8290,7 @@
  {
   "id": "MC1-0822",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机解调器的作用是：",
@@ -8306,7 +8306,7 @@
  {
   "id": "MC1-0823",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "选用解调器的主要应考因素是：",
@@ -8322,7 +8322,7 @@
  {
   "id": "MC1-0824",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "亚音频静噪系统（CTCSS）所用的声调大体位于音频中的什么范围？",
@@ -8338,7 +8338,7 @@
  {
   "id": "MC1-0825",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于比较考究的接收机，其说明书中常常列出一项“通带矩形系数”或“通带形状系数” 指标，是用来描述：",
@@ -8354,7 +8354,7 @@
  {
   "id": "MC1-0826",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "根据说明书给出的技术指标，两台业余无线电接收机在USB 方式下选择带宽为2.7kHz 的滤波器时具有不同的“通带矩形系数”。接收机A 的“60dB 带宽对6dB 带宽的矩形系数” 为3.8，接收机B 的为5。由此可得出结论：",
@@ -8370,7 +8370,7 @@
  {
   "id": "MC1-0827",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机前置放大器的主要作用是：",
@@ -8386,7 +8386,7 @@
  {
   "id": "MC1-0828",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "进行FM 话音通联时，我们能否单凭接收机中传出的对方的声音大小来准确判断对方的 信号有多强？",
@@ -8402,7 +8402,7 @@
  {
   "id": "MC1-0829",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "用设置在NFM 方式的对讲机接收WFM 信号，效果为：",
@@ -8418,7 +8418,7 @@
  {
   "id": "MC1-0830",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "用设置在WFM 方式的对讲机接收NFM 信号，效果为：",
@@ -8434,7 +8434,7 @@
  {
   "id": "MC1-0831",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "没有信号时，调频接收机会输出一种强烈的沙沙声。关于这种噪声，以下描述正确的是：",
@@ -8450,7 +8450,7 @@
  {
   "id": "MC1-0832",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪种电路可以解调FM 信号？",
@@ -8466,7 +8466,7 @@
  {
   "id": "MC1-0833",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "什么是“鉴频”？",
@@ -8482,7 +8482,7 @@
  {
   "id": "MC1-0834",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪一项可以解调AM 信号？",
@@ -8498,7 +8498,7 @@
  {
   "id": "MC1-0835",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "什么是“检波”？",
@@ -8514,7 +8514,7 @@
  {
   "id": "MC2-0836",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC2",
   "selectCount": 2,
   "question": "关于收发信机的AGC 功能，以下说法正确的有：",
@@ -8530,7 +8530,7 @@
  {
   "id": "MC1-0837",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "学习现代通信技术或制作业余无线电作品时，我们经常遇到一种工作原理不同于超外差 式收信机的“DC 式收信机”。其中，缩写DC 是指：",
@@ -8546,7 +8546,7 @@
  {
   "id": "MC1-0838",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机和发射机中常见的混频器有什么作用？",
@@ -8562,7 +8562,7 @@
  {
   "id": "MC1-0839",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "在超外差式收发信机中，混频器的工作方式可分为“上变频”和“下变频”两种，具体 指：",
@@ -8578,7 +8578,7 @@
  {
   "id": "MC1-0840",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "超外差式业余收发信机的面板上经常设有选择中频滤波器带宽的控制部件。这些中频滤 波器所抑制的干扰可以分类为：",
@@ -8594,7 +8594,7 @@
  {
   "id": "MC1-0841",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "在超外差式业余收发信机中，负责抑制镜像频率干扰的部件是：",
@@ -8610,7 +8610,7 @@
  {
   "id": "MC1-0842",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "超外差式收信机所收信号的频率要比本振频率低（或高）一个中频。然而，比本振频率 高（或低）一个中频的另一个遥相对应的信号也可能经混频窜入中频通道，形成“镜像频率 干扰”或“镜频干扰”。如果某对讲机的技术规格书给出的VHF 接收机第一中频为45.05MHz， 那么在145.00MHz 收到的镜频干扰可能来自：",
@@ -8626,7 +8626,7 @@
  {
   "id": "MC1-0843",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "超外差式收信机所收信号的频率要比本振频率低（或高）一个中频。然而，比本振频率 高（或低）一个中频的另一个遥相对应的信号也可能经混频窜入中频通道，形成“镜像频率 干扰”或“镜频干扰”。如果某对讲机的技术规格书给出NFM 方式时的第一中频为47.25MHz， 那么在145.00MHz 收到的镜频干扰可能来自：",
@@ -8642,7 +8642,7 @@
  {
   "id": "MC1-0844",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "超外差式收信机所收信号的频率要比本振频率低（或高）一个中频。然而，比本振频率 高（或低）一个中频的另一个遥相对应的信号也可能经混频窜入中频通道，形成“镜像频率 干扰”或“镜频干扰”。如果某对讲机的技术规格书给出NFM 接收所用的第一中频为 47.25MHz，那么在435.00MHz 收到的镜频干扰可能来自：",
@@ -8658,7 +8658,7 @@
  {
   "id": "MC1-0845",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "超外差式收信机所收信号的频率要比本振频率低（或高）一个中频。然而，比本振频率 高（或低）一个中频的另一个遥相对应的信号也可能经混频窜入中频通道，形成“镜像频率 干扰”或“镜频干扰”。如果某对讲机的技术规格书给出的UHF接收机第一中频为58.525MHz， 那么在435.00MHz 收到的镜频干扰可能来自：",
@@ -8674,7 +8674,7 @@
  {
   "id": "MC1-0846",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电发射机的效率是指：",
@@ -8690,7 +8690,7 @@
  {
   "id": "MC1-0847",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电发射机的效率总是明显低于1。所损耗的那部分能量：",
@@ -8706,7 +8706,7 @@
  {
   "id": "MC1-0848",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "若一部业余无线电台的工作电压为直流13.8 伏，FM 方式的射频输出功率为N 瓦，电源 效率约为80%，则发射时的工作电流约为：",
@@ -8722,7 +8722,7 @@
  {
   "id": "MC1-0849",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "若一部业余无线电台的工作电压为交流220 伏，FM 方式的射频输出功率为N 瓦，电源 效率约为80%，则发射时的工作电流约为：",
@@ -8738,7 +8738,7 @@
  {
   "id": "MC1-0850",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "若一部业余无线电台以FM 方式发射时的射频输出功率为N 瓦，电源效率约为80%，则 每发射10 秒钟所消耗的电能约为：",
@@ -8754,7 +8754,7 @@
  {
   "id": "MC1-0851",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电发信机在无调制情况下，在一个射频周期内供给天线馈线的平均功率称为：",
@@ -8770,7 +8770,7 @@
  {
   "id": "MC1-0852",
   "category": "3.6.1",
-  "categoryName": "安全电压",
+  "categoryName": "收发信机原理与电路",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果某话音发射机在不同调制方式下的峰值输出功率相同，则在无语音输入时，实际射 频输出功率由大到小可以排序为：",
@@ -8786,7 +8786,7 @@
  {
   "id": "MC1-0859",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪项技术指标描述了接收机抗拒邻近频率干扰的能力？",
@@ -8802,7 +8802,7 @@
  {
   "id": "MC1-0860",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机抗拒工作频率附近干扰信号的能力可以用选择性指标来表示，分别为：",
@@ -8818,7 +8818,7 @@
  {
   "id": "MC1-0861",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机接收SSB 话音信号时的频响均匀程度可以用选择性指标来表示，分别为：",
@@ -8834,7 +8834,7 @@
  {
   "id": "MC1-0862",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机抗拒相距工作频率较远的强干扰信号的能力可以用选择性指标来表示，分别为：",
@@ -8850,7 +8850,7 @@
  {
   "id": "MC1-0863",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机抗拒相距工作频率两倍于中频的强干扰信号的能力可以用选择性指标来表示，分 别为：",
@@ -8866,7 +8866,7 @@
  {
   "id": "MC1-0864",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机灵敏度指标的数值大小具有什么意义？",
@@ -8882,7 +8882,7 @@
  {
   "id": "MC1-0865",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "用功率电平表示接收机的灵敏度具有什么意义？常用单位是什么？",
@@ -8898,7 +8898,7 @@
  {
   "id": "MC1-0866",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "用电压电平表示接收机的灵敏度具有什么意义？常用单位是什么？",
@@ -8914,7 +8914,7 @@
  {
   "id": "MC1-0867",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电接收机大多具备信号强度指示功能。在VHF/UHF 频段，信号强度的最小刻度 S1 与输入信号功率电平-141dBm（50Ω上的电压电平0.02μV）相一致；而在HF 频段， S1 则与-121dBm 的输入信号（50Ω上的0.2μV）相对应。这是因为：",
@@ -8930,7 +8930,7 @@
  {
   "id": "MC1-0868",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "甲乙两种型号的业余无线电收发信机在技术规格中给出的接收机灵敏度指标分别为0.1 μV 和0.15μV。关于该指标，正确的推论是：",
@@ -8946,7 +8946,7 @@
  {
   "id": "MC1-0869",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为1μV。如果用电压电平μV 表示该机的灵敏度，则为：",
@@ -8962,7 +8962,7 @@
  {
   "id": "MC1-0870",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为1μV。如果用功率电平dBm 表示该机的灵敏度，则为：",
@@ -8978,7 +8978,7 @@
  {
   "id": "MC1-0871",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为1μV。如果用电压电平dBμV 表示该机的灵敏度，则为：",
@@ -8994,7 +8994,7 @@
  {
   "id": "MC1-0872",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为0.5μV。如果用电压电平μV 表示该机的灵敏度，则为：",
@@ -9010,7 +9010,7 @@
  {
   "id": "MC1-0873",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为0.5μV。如果用功率电平dBm 表示该机的灵敏度，则为：",
@@ -9026,7 +9026,7 @@
  {
   "id": "MC1-0874",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "当输出信号满足规定质量标准时，在输入阻抗为50 欧的某接收机天线输入端口处测得的 输入信号最小电压为0.5μV。如果用电压电平dBμV 表示该机的灵敏度，则为：",
@@ -9042,7 +9042,7 @@
  {
   "id": "MC1-0875",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "已知某接收机的天线输入阻抗为50Ω，灵敏度指标为2μV，则功率电平相应为：",
@@ -9058,7 +9058,7 @@
  {
   "id": "MC1-0876",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "已知某接收机的天线输入阻抗为50Ω，灵敏度指标为1μV，则功率电平相应为：",
@@ -9074,7 +9074,7 @@
  {
   "id": "MC1-0877",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "制约现代无线电接收机灵敏度的主要因素是：",
@@ -9090,7 +9090,7 @@
  {
   "id": "MC1-0878",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "术语“信噪比（SNR）”在业余无线电领域广为使用。它是指：",
@@ -9106,7 +9106,7 @@
  {
   "id": "MC1-0879",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于需要接收微弱信号的业余通信，例如EME 通联，接收机的噪声系数Fn（以比值的 形式表示）是一项重要技术指标。它是指：",
@@ -9122,7 +9122,7 @@
  {
   "id": "MC1-0880",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "接收机的静噪灵敏度是指：",
@@ -9138,7 +9138,7 @@
  {
   "id": "MC1-0881",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于需要接收微弱信号的业余通信，例如EME 通联，接收机的噪声系数Fn（以比值的 形式表示）是一项重要技术指标。关于Fn 的一些基本常识是：",
@@ -9154,7 +9154,7 @@
  {
   "id": "MC1-0882",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于需要接收微弱信号的业余通信，例如EME 通联，接收机的噪声指数NF（以对数表 示）是一项重要技术指标。它是指：",
@@ -9170,7 +9170,7 @@
  {
   "id": "MC1-0883",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于需要接收微弱信号的业余通信，例如EME 通联，接收机的噪声指数NF（以对数表 示）是一项重要技术指标。关于NF 的一些基本常识是：",
@@ -9186,7 +9186,7 @@
  {
   "id": "MC1-0884",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "在无线电通信领域中，描述信号源、放大器或接收机等设备或系统组件的内部噪声大小 时常用“噪声温度”指标。以接收机为例，等效噪声温度Te 的意义是：",
@@ -9202,7 +9202,7 @@
  {
   "id": "MC1-0885",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "不产生任何内部噪声的理想放大器或接收机的噪声系数Fn、噪声指数NF 和噪声温度Te 分别为：",
@@ -9218,7 +9218,7 @@
  {
   "id": "MC1-0886",
   "category": "3.6.3",
-  "categoryName": "防雷与接地",
+  "categoryName": "接收机性能指标",
   "type": "MC1",
   "selectCount": 1,
   "question": "假设一个用于卫星业余业务的天线放大器工作在标准温度（17℃）下，其输入端已连接 良好匹配的天线。如果放大器所产生的内部噪声与输入的热噪声等效，则该放大器的噪声系 数Fn、噪声指数NF 和噪声温度Te 分别为：",
@@ -9234,7 +9234,7 @@
  {
   "id": "MC1-0908",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "在业余无线电领域中，缩写AMSAT 是指：",
@@ -9250,7 +9250,7 @@
  {
   "id": "MC1-0909",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "在描述业余无线电卫星时经常用到缩写OSCAR（奥斯卡），这个名称的由来是：",
@@ -9266,7 +9266,7 @@
  {
   "id": "MC1-0910",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "我国发射的第一颗业余卫星的发射年份、名称、国际OSCAR 系列号和转发器模式分别 为：",
@@ -9282,7 +9282,7 @@
  {
   "id": "MC1-0911",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "开展EME 通信试验的最佳时机是：",
@@ -9298,7 +9298,7 @@
  {
   "id": "MC1-0912",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "在EME 通信等需要接收极微弱信号的场合，安装前置放大器时应做到：",
@@ -9314,7 +9314,7 @@
  {
   "id": "MC1-0913",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于需要接收VHF/UHF 微弱信号的通信场景，比如月面反射实验，爱好者们时常需要在 所用八木天线的馈电端处就近加装低噪声前置放大器。相比之下，HF 通信爱好者却很少将 他们所用的前置放大器装在八木天线或其他收信天线的馈电点处。这是因为：",
@@ -9330,7 +9330,7 @@
  {
   "id": "MC1-0914",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪个业余波段最适合流星余迹散射通信？",
@@ -9346,7 +9346,7 @@
  {
   "id": "MC1-0915",
   "category": "3.8.1",
-  "categoryName": "电磁辐射防护",
+  "categoryName": "业余卫星与弱信号通信",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪些通信方式可用于流星余迹和对流层散射通信实验？",
@@ -9362,7 +9362,7 @@
  {
   "id": "MC2-0916",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC2",
   "selectCount": 2,
   "question": "导体是易于传导电流的物质或材料。以下关于导体的正确描述是：",
@@ -9378,7 +9378,7 @@
  {
   "id": "MC3-0917",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于导体，以下说法正确的是：",
@@ -9394,7 +9394,7 @@
  {
   "id": "MC4-0918",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC4",
   "selectCount": 4,
   "question": "绝缘体是不易传导电流的物质或材料。以下关于绝缘体的正确描述是：",
@@ -9410,7 +9410,7 @@
  {
   "id": "MC3-0919",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC3",
   "selectCount": 3,
   "question": "以下哪些可以用作绝缘材料？",
@@ -9426,7 +9426,7 @@
  {
   "id": "MC3-0920",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC3",
   "selectCount": 3,
   "question": "“击穿”是指施加于绝缘介质上的电压高于一定值时，部分介质突然变成导体，导致介 质的电阻陡然下降的一种现象。以下哪些是对击穿现象的描述？",
@@ -9442,7 +9442,7 @@
  {
   "id": "MC1-0921",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电设备中的射频部件积灰或受潮后，即使没有击穿或漏电，也可能因绝缘体的 物理性质发生改变而意外产生：",
@@ -9458,7 +9458,7 @@
  {
   "id": "MC4-0922",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC4",
   "selectCount": 4,
   "question": "半导体是导电能力介于导体与绝缘体之间的一类物质或材料。对半导体的正确描述是：",
@@ -9474,7 +9474,7 @@
  {
   "id": "MC3-0923",
   "category": "4.1.1",
-  "categoryName": "业余电台组成",
+  "categoryName": "导体、绝缘体与半导体",
   "type": "MC3",
   "selectCount": 3,
   "question": "下列哪些器件由半导体材料制成？",
@@ -9490,7 +9490,7 @@
  {
   "id": "MC3-0924",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC3",
   "selectCount": 3,
   "question": "静电放电是一种常见电磁现象，时刻伴随日常生活。但是，较强的静电放电却足以损坏 电子设备甚至危及人身，需要预防。以下所述与静电有关的是：",
@@ -9506,7 +9506,7 @@
  {
   "id": "MC2-0925",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC2",
   "selectCount": 2,
   "question": "如果将导体置于静电场中，导体将呈现如下特点：",
@@ -9522,7 +9522,7 @@
  {
   "id": "MC2-0926",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC2",
   "selectCount": 2,
   "question": "直流电（DC）是以电荷的运动方向始终不变来定义的。关于直流电，以下描述正确的是：",
@@ -9538,7 +9538,7 @@
  {
   "id": "MC1-0927",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "交流电（AC）是以电荷的运动方向随时间交替变化来定义的。关于交流电，以下描述正 确的是：",
@@ -9554,7 +9554,7 @@
  {
   "id": "MC1-0928",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪一个术语可以用来描述交流电每秒改变极性的次数？",
@@ -9570,7 +9570,7 @@
  {
   "id": "MC1-0929",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电爱好者经常提及的“波长”与无线电波的频率有什么关系？",
@@ -9586,7 +9586,7 @@
  {
   "id": "MC1-0930",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "物理量“电动势”描述的是：",
@@ -9602,7 +9602,7 @@
  {
   "id": "MC1-0931",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "物理量“电压”描述的是：",
@@ -9618,7 +9618,7 @@
  {
   "id": "MC1-0932",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "正弦交流电压或电流的峰值（peak value）是指：（“x＾m”表示“x 的m 次方”）",
@@ -9634,7 +9634,7 @@
  {
   "id": "MC1-0933",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "正弦交流电压或电流的峰-峰值（peak-to-peak value）是指：",
@@ -9650,7 +9650,7 @@
  {
   "id": "MC1-0934",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "任意交流电压的有效值（RMS voltage）是指：（“x＾m”表示“x 的m 次方”）",
@@ -9666,7 +9666,7 @@
  {
   "id": "MC1-0935",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "物理量“电流”描述的是：",
@@ -9682,7 +9682,7 @@
  {
   "id": "MC1-0936",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "物理量“电阻”描述的是：",
@@ -9698,7 +9698,7 @@
  {
   "id": "MC1-0937",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "物理量“功率”描述的是：",
@@ -9714,7 +9714,7 @@
  {
   "id": "MC2-0938",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC2",
   "selectCount": 2,
   "question": "直流电路欧姆定律是说：",
@@ -9730,7 +9730,7 @@
  {
   "id": "MC1-0939",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "在电路中不受电阻阻碍的电流，种类如下：",
@@ -9746,7 +9746,7 @@
  {
   "id": "MC1-0940",
   "category": "4.1.2",
-  "categoryName": "收发信机操作",
+  "categoryName": "电路基本概念与欧姆定律",
   "type": "MC1",
   "selectCount": 1,
   "question": "术语“阻抗”描述的是：",
@@ -9762,7 +9762,7 @@
  {
   "id": "MC1-0941",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "电动势的单位是：",
@@ -9778,7 +9778,7 @@
  {
   "id": "MC1-0942",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "电压的单位是：",
@@ -9794,7 +9794,7 @@
  {
   "id": "MC1-0943",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "电流的单位是：",
@@ -9810,7 +9810,7 @@
  {
   "id": "MC1-0944",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "电阻的单位是：",
@@ -9826,7 +9826,7 @@
  {
   "id": "MC1-0945",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "阻抗的单位是：",
@@ -9842,7 +9842,7 @@
  {
   "id": "MC1-0946",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "功率的单位是：",
@@ -9858,7 +9858,7 @@
  {
   "id": "MC1-0947",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "频率的单位是：",
@@ -9874,7 +9874,7 @@
  {
   "id": "MC1-0948",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头k 的数学意义和文字含义分别为： （“x＾m”表示“x 的m 次方”）",
@@ -9890,7 +9890,7 @@
  {
   "id": "MC1-0949",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头m 的数学意义和文字含义分别为：（“x＾m”表示“x 的m 次 方”）",
@@ -9906,7 +9906,7 @@
  {
   "id": "MC1-0950",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头M 的数学意义和文字含义分别为：（“x＾m”表示“x 的m 次 方”）",
@@ -9922,7 +9922,7 @@
  {
   "id": "MC1-0951",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头μ的数学意义和文字含义分别为：（“x＾m”表示“x 的m 次方”）",
@@ -9938,7 +9938,7 @@
  {
   "id": "MC1-0952",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头G 的数学意义和文字含义分别为： （“x＾m”表示“x 的m 次方”）",
@@ -9954,7 +9954,7 @@
  {
   "id": "MC1-0953",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头n 的数学意义和文字含义分别为： （“x＾m”表示“x 的m 次方”）",
@@ -9970,7 +9970,7 @@
  {
   "id": "MC1-0954",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头T 的数学意义和文字含义分别为： （“x＾m”表示“x 的m 次方”）",
@@ -9986,7 +9986,7 @@
  {
   "id": "MC1-0955",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "在法定计量单位中，词头p 的数学意义和文字含义分别为： （“x＾m”表示“x 的m 次方”）",
@@ -10002,7 +10002,7 @@
  {
   "id": "MC1-0956",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪个业余无线电通信缩语可以表述术语“射频”或特指无线电用途的某个频率？",
@@ -10018,7 +10018,7 @@
  {
   "id": "MC1-0957",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "术语“音频”是指人们可以普遍听到的声音的频率。以下描述正确的是：",
@@ -10034,7 +10034,7 @@
  {
   "id": "MC1-0958",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "无线电通信及相关测试设备、电视设备和音频设备常用的传输接口标称阻抗分别为：",
@@ -10050,7 +10050,7 @@
  {
   "id": "MC1-0959",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "1,805,000Hz 可以表述为：",
@@ -10066,7 +10066,7 @@
  {
   "id": "MC1-0960",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "2430MHz 可以表示为：",
@@ -10082,7 +10082,7 @@
  {
   "id": "MC1-0961",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "将阻值为1 欧的电阻与13.8 伏电源并联，电阻所耗散的功率大约为：",
@@ -10098,7 +10098,7 @@
  {
   "id": "MC1-0962",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "5W 可以表示为：",
@@ -10114,7 +10114,7 @@
  {
   "id": "MC1-0963",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "0.25W 可以表示为：",
@@ -10130,7 +10130,7 @@
  {
   "id": "MC1-0964",
   "category": "4.1.3",
-  "categoryName": "天线系统",
+  "categoryName": "电学单位与数值换算",
   "type": "MC1",
   "selectCount": 1,
   "question": "0.4kW 可以表示为：",
@@ -10146,7 +10146,7 @@
  {
   "id": "MC4-0965",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC4",
   "selectCount": 4,
   "question": "电源是业余无线电爱好者常用的一种供电装置。我们对电源的理解是：",
@@ -10162,7 +10162,7 @@
  {
   "id": "MC1-0966",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "电源两端电动势的方向为：",
@@ -10178,7 +10178,7 @@
  {
   "id": "MC1-0967",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "电源两端电压的方向为：",
@@ -10194,7 +10194,7 @@
  {
   "id": "MC3-0968",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC3",
   "selectCount": 3,
   "question": "为业余无线电设备供电的外置电源具有多种类型。常见的有：",
@@ -10210,7 +10210,7 @@
  {
   "id": "MC3-0969",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC3",
   "selectCount": 3,
   "question": "下列哪一种电池可以充电？",
@@ -10226,7 +10226,7 @@
  {
   "id": "MC1-0970",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "如何在电网停电的情况下给一个12 伏的铅酸蓄电池充电？",
@@ -10242,7 +10242,7 @@
  {
   "id": "MC1-0971",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "使用蓄电池为电台供电时，应如何估算电池供电的时长？",
@@ -10258,7 +10258,7 @@
  {
   "id": "MC1-0972",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "电源的内阻对电路的影响是：",
@@ -10274,7 +10274,7 @@
  {
   "id": "MC1-0973",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC1",
   "selectCount": 1,
   "question": "有些收发信机会在直流13.8V 供电线路中串联一个熔断器，并在其后反向并联一个额定 电流很大的二极管作保护之用。该电路利用了二极管的什么特性？是如何工作的？",
@@ -10290,7 +10290,7 @@
  {
   "id": "MC2-0974",
   "category": "4.1.4",
-  "categoryName": "电台安装调试",
+  "categoryName": "电源、电池与供电保护",
   "type": "MC2",
   "selectCount": 2,
   "question": "有些收发信机会在13.8V 直流电源插座附近安装一个标有数字的复位按钮。其作用是什 么？",
@@ -10306,7 +10306,7 @@
  {
   "id": "MC1-1298",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "用万用表的直流电压档测量正负对称的方波电压（占空比为1:1）。所得读数为：",
@@ -10322,7 +10322,7 @@
  {
   "id": "MC1-1299",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果用磁电式万用表的交流电压档测量正负对称的方波电压（占空比为1:1），其指针所 示的电压读数：",
@@ -10338,7 +10338,7 @@
  {
   "id": "MC1-1300",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "用指针式万用表的直流电压档测量最小值为0 的方波电压（占空比为1:1），得到的读数 是该电压的：",
@@ -10354,7 +10354,7 @@
  {
   "id": "MC1-1301",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "用万用表的电阻档测量一个电路。最开始，电表指示电路的阻值很小。但是随着测量时 间的延长，测量值却变得越来越大。这是因为：",
@@ -10370,7 +10370,7 @@
  {
   "id": "MC2-1302",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC2",
   "selectCount": 2,
   "question": "测量一个电解电容器是否完好应当使用：",
@@ -10386,7 +10386,7 @@
  {
   "id": "MC1-1303",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "用指针式万用电表的电阻档测量一个常用元件，表笔第一次连接时表针挥动了一下，但 很快回到零点。断开表笔重新连接，表针却不再有任何指示。正确的推论是：",
@@ -10402,7 +10402,7 @@
  {
   "id": "MC1-1304",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "指针式万用表的电压档有个“欧姆/伏（每伏欧姆）”指标。越大的每伏欧姆数越说明：",
@@ -10418,7 +10418,7 @@
  {
   "id": "MC1-1305",
   "category": "4.6.1",
-  "categoryName": "常用测试仪器",
+  "categoryName": "万用表测量",
   "type": "MC1",
   "selectCount": 1,
   "question": "用数字万用表的直流电压档测量电路两点间某个等幅音频信号的电压，发现读数不为零。 交换两支表笔之后再测，所得读数的极性反转。正确的推论是：",
@@ -10434,7 +10434,7 @@
  {
   "id": "MC1-1345",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电发射设备的下列指标必须符合国家的相关规定：",
@@ -10450,7 +10450,7 @@
  {
   "id": "MC1-1346",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台的无线电发射设备应符国家规定的下列主要技术指标：",
@@ -10466,7 +10466,7 @@
  {
   "id": "MC2-1347",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC2",
   "selectCount": 2,
   "question": "频率容限是指：",
@@ -10482,7 +10482,7 @@
  {
   "id": "MC2-1348",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC2",
   "selectCount": 2,
   "question": "频率容限是发射设备的重要指标，通常用下述单位来表示：",
@@ -10498,7 +10498,7 @@
  {
   "id": "MC3-1349",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC3",
   "selectCount": 3,
   "question": "杂散域发射功率是发射设备的重要指标，通常用下述单位来表示：",
@@ -10514,7 +10514,7 @@
  {
   "id": "MC3-1350",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC3",
   "selectCount": 3,
   "question": "杂散发射是指：",
@@ -10530,7 +10530,7 @@
  {
   "id": "MC1-1351",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余无线电专用发射设备必须满足的主要技术指标要求包括：",
@@ -10546,7 +10546,7 @@
  {
   "id": "MC1-1352",
   "category": "5.1.1",
-  "categoryName": "用电安全",
+  "categoryName": "发射设备技术指标与杂散发射",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列情况会产生减幅波辐射：",
@@ -10562,7 +10562,7 @@
  {
   "id": "MC2-1353",
   "category": "5.1.2",
-  "categoryName": "防雷措施",
+  "categoryName": "电磁环境保护与辐射限值",
   "type": "MC2",
   "selectCount": 2,
   "question": "按照国家标准GB8702-2014《电磁环境控制限值》，从电磁环境保护管理角度，向没有 屏蔽空间发射电磁场可以免于管理的有：",
@@ -10578,7 +10578,7 @@
  {
   "id": "MC1-1354",
   "category": "5.1.2",
-  "categoryName": "防雷措施",
+  "categoryName": "电磁环境保护与辐射限值",
   "type": "MC1",
   "selectCount": 1,
   "question": "根据国家标准GB8702-2014《电磁环境控制限值》，公众曝露是指：",
@@ -10594,7 +10594,7 @@
  {
   "id": "MC1-1355",
   "category": "5.1.2",
-  "categoryName": "防雷措施",
+  "categoryName": "电磁环境保护与辐射限值",
   "type": "MC1",
   "selectCount": 1,
   "question": "为什么我国《电磁环境控制限值》标准中的照射限值伴随频率有所不同？",
@@ -10610,7 +10610,7 @@
  {
   "id": "MC3-1356",
   "category": "5.1.2",
-  "categoryName": "防雷措施",
+  "categoryName": "电磁环境保护与辐射限值",
   "type": "MC3",
   "selectCount": 3,
   "question": "关于自制、改装、拼装无线电发射设备，下列说法正确的是：",
@@ -10626,7 +10626,7 @@
  {
   "id": "MC1-1357",
   "category": "5.1.2",
-  "categoryName": "防雷措施",
+  "categoryName": "电磁环境保护与辐射限值",
   "type": "MC1",
   "selectCount": 1,
   "question": "空中的VHF 和UHF 信号属于下面哪一类辐射？",
@@ -10642,7 +10642,7 @@
  {
   "id": "MC1-1358",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "业余电台安装防雷装置是为了防止雷电危害。传统防雷装置的主要组成部分包括：",
@@ -10658,7 +10658,7 @@
  {
   "id": "MC1-1359",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "防雷接地的作用是：",
@@ -10674,7 +10674,7 @@
  {
   "id": "MC1-1360",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "关于防雷装置的接地，最基本要求为：",
@@ -10690,7 +10690,7 @@
  {
   "id": "MC1-1361",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "对于一般建筑物，单支避雷针的保护范围至多能有多大：",
@@ -10706,7 +10706,7 @@
  {
   "id": "MC1-1362",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "下列哪种导电材料最适宜连接天线、塔架和入室馈线等处的各个接地部件？",
@@ -10722,7 +10722,7 @@
  {
   "id": "MC1-1363",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "在为同轴馈线安装避雷器时应当注意什么？",
@@ -10738,7 +10738,7 @@
  {
   "id": "MC1-1364",
   "category": "5.1.3",
-  "categoryName": "防雷装置",
+  "categoryName": "防雷装置与接地",
   "type": "MC1",
   "selectCount": 1,
   "question": "以下哪一项是天线铁塔防雷接地的有效措施？",
@@ -10754,7 +10754,7 @@
  {
   "id": "MC1-1365",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "考虑实际工作环境必然存在一定的湿度，则根据GB/T 3805－2008《特低电压ELV 限值》 在潮湿条件下的限值，当人体握紧某个带电零件时，零件与人体间的电压不可高于：",
@@ -10770,7 +10770,7 @@
  {
   "id": "MC1-1366",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "假如接触电压相同，则触及带有射频电压（例如，频率不低于LF）的裸露导线与触及带 有直流或交流50Hz 电压的裸露导线相比，人体所受的安全威胁有什么不同？",
@@ -10786,7 +10786,7 @@
  {
   "id": "MC1-1367",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果用两手分别接触电压有效值相同但频率不同的电路的两个端点，则所受安全威胁由 大到小可以排序为：",
@@ -10802,7 +10802,7 @@
  {
   "id": "MC1-1368",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果不得已，必须带电检修由市电供电的无线电设备，则应做到：",
@@ -10818,7 +10818,7 @@
  {
   "id": "MC3-1369",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC3",
   "selectCount": 3,
   "question": "设备的外壳带电可能危及人身安全。相关预防措施包括：",
@@ -10834,7 +10834,7 @@
  {
   "id": "MC1-1370",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "即使设备的电源线已经拔掉，检修时仍可能遇到什么安全风险？",
@@ -10850,7 +10850,7 @@
  {
   "id": "MC1-1371",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC1",
   "selectCount": 1,
   "question": "自制由220 伏交流市电供电的设备，安全措施应至少包括：",
@@ -10866,7 +10866,7 @@
  {
   "id": "MC3-1372",
   "category": "5.1.4",
-  "categoryName": "带电作业安全",
+  "categoryName": "用电安全与触电防护",
   "type": "MC3",
   "selectCount": 3,
   "question": "如何确保自制的业余无线电作品具有较高的用电安全性？",
@@ -10882,7 +10882,7 @@
  {
   "id": "MC1-1373",
   "category": "5.1.5",
-  "categoryName": "蓄电池安全",
+  "categoryName": "蓄电池安全与电气消防",
   "type": "MC1",
   "selectCount": 1,
   "question": "使用普通12 伏铅酸蓄电池为电台供电存在什么潜在风险？",
@@ -10898,7 +10898,7 @@
  {
   "id": "MC1-1374",
   "category": "5.1.5",
-  "categoryName": "蓄电池安全",
+  "categoryName": "蓄电池安全与电气消防",
   "type": "MC1",
   "selectCount": 1,
   "question": "如果铅酸蓄电池的充电或放电过程过快会有什么风险？",
@@ -10914,7 +10914,7 @@
  {
   "id": "MC1-1375",
   "category": "5.1.5",
-  "categoryName": "蓄电池安全",
+  "categoryName": "蓄电池安全与电气消防",
   "type": "MC1",
   "selectCount": 1,
   "question": "电台室如遇电气设备、电线电缆或者电源装置失火，正确的处置应当为：",
