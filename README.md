@@ -3,7 +3,7 @@
 面向业余无线电爱好者（HAM）的 A 类操作技术能力验证模拟考试 Web 应用。
 纯前端 + 离线可用，支持手机安装为 PWA 应用。
 
-**在线体验：** https://bjdr69.github.io/ham-exam/
+**在线体验：** [https://ham.bjdr.qzz.io/](https://ham.bjdr.qzz.io/)
 
 ## 📚 题库来源
 
