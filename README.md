@@ -71,7 +71,9 @@ node server.js
 
 **推荐：全离线版 APK（内置全部 683 题，无需网络，推荐安装）**
 
-📥 **[下载 HAM考试 离线版 v1.0.10](https://github.com/bjdr69/ham-exam/releases/download/v1.0.10/HAM-exam-v1.0.10.apk)**
+📥 **[下载 HAM考试 离线版 v1.0.11](https://github.com/bjdr69/ham-exam/releases/download/v1.0.11/HAM-exam-v1.0.11.apk)**
+
+> **v1.0.11 修复**：按各组实际题目内容修正 48 个分类名、653 道题目标签和五个大类标题；保留全部 683 道题的官方分类编号、题干、选项、答案及解析，网页版和离线版同步更新。沿用 v1.0.10 签名与包名，可覆盖安装，保留进度与错题记录。完整对照见 [分类映射](docs/categories.md)。
 
 > **v1.0.10 修复**：右上角☀️/主题切换按钮失效——原实现只改 CSS `color-scheme` 属性（仅影响浏览器原生控件），应用配色令牌只由 `@media prefers-color-scheme` 决定，点击后页面不变色。现改为 `data-theme` 三态（跟随系统/显式浅色/显式深色），显式选择可覆盖系统偏好并持久化；E2E 新增真机行为断言（点按钮 body 背景即时变化）。
 >
@@ -85,16 +87,16 @@ node server.js
 >
 > **v1.0.4 修复**：① 按 CRAC 官方题库修正 50 道题的分类边界错位，分类练习 1.1.1「无线电管理法规」恢复为 5 题，全部 51 分类计数与官方一致；② 修复 Android 16 上页面标题与系统状态栏叠加显示。
 
-| 特性 | 离线版 v1.0.10（推荐） | 旧版 v1.0.0（TWA） |
+| 特性 | 离线版 v1.0.11（推荐） | 旧版 v1.0.0（TWA） |
 |------|----------------------|--------------------|
 | 网络 | **100% 离线，永不联网** | 首次需联网加载题库 |
 | 题库 | **683 题全部内置 APK** | 靠 Service Worker 缓存 |
 | 权限 | **0 权限** | 有通知权限 |
-| 体积 | 仅 185 KB | 约 1 MB |
+| 体积 | 约 181 KB | 约 1 MB |
 | targetSdk | 36（安卓 5.0~16） | 36 |
 
 > 离线版把全部题目与答案解析直接打包进应用，断网、清缓存、重装后照常使用。
-> 包名 `io.github.bjdr69.hamexam`，若曾安装过旧离线版请先卸载（v1.0.5 更换了签名密钥，无法覆盖安装）。
+> 包名 `io.github.bjdr69.hamexam`。v1.0.5 及以后版本可覆盖安装，请勿卸载，以保留进度；v1.0.4 及更早离线版因签名不同，需卸载后安装，原进度会丢失。
 > 旧版本：[v1.0.9](https://github.com/bjdr69/ham-exam/releases/download/v1.0.9/HAM-exam-v1.0.9.apk) · [v1.0.8](https://github.com/bjdr69/ham-exam/releases/download/v1.0.8/HAM-exam-v1.0.8.apk) · [v1.0.7](https://github.com/bjdr69/ham-exam/releases/download/v1.0.7/HAM-exam-v1.0.7.apk) · [v1.0.5](https://github.com/bjdr69/ham-exam/releases/download/v1.0.5/HAM-exam-v1.0.5.apk) · [v1.0.4](https://github.com/bjdr69/ham-exam/releases/download/v1.0.4/HAM-exam-v1.0.4.apk) · [v1.0.3](https://github.com/bjdr69/ham-exam/releases/download/v1.0.3/HAM-exam-v1.0.3.apk)
 
 **旧版 TWA（在线版，加载线上最新数据）**
