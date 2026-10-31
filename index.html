@@ -243,6 +243,18 @@ body {
 .modal p { color: var(--text2); font-size: 0.9rem; margin-bottom: 20px; }
 .modal .btn-group { flex-direction: row; }
 
+/* In-page details also work in the offline Android WebView without alert support. */
+.question-detail { max-width: 560px; max-height: 90vh; max-height: 90dvh; display: flex; flex-direction: column; text-align: left; }
+.question-detail-body { overflow-y: auto; min-height: 0; overscroll-behavior: contain; }
+.question-detail-meta { font-size: 0.8rem; color: var(--text2); margin-bottom: 12px; }
+.question-detail-text, .detail-option, .question-detail-explanation { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.6; }
+.question-detail-text { margin-bottom: 12px; }
+.detail-option { padding: 10px; margin-bottom: 8px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.detail-option.correct { border-color: var(--correct); background: var(--correct-bg); }
+.question-detail-answer { font-weight: 700; margin: 12px 0; }
+.question-detail-explanation { color: var(--text2); }
+.question-detail > .btn { margin-top: 16px; flex-shrink: 0; }
+
 /* Empty state */
 .empty { text-align: center; padding: 48px 16px; color: var(--text2); }
 .empty .icon { font-size: 3rem; margin-bottom: 12px; }
@@ -261,7 +273,7 @@ body {
 }
 .mock-timer.danger { border-color: var(--wrong); color: var(--wrong); background: var(--wrong-bg); }
 .mock-on .exam-actions { padding-bottom: 56px; }
-.mock-wrong-main { flex: 1; min-width: 0; cursor: pointer; }
+.mock-wrong-main { flex: 1; min-width: 0; cursor: pointer; background: none; border: 0; text-align: left; font: inherit; color: inherit; overflow-wrap: anywhere; }
 .mock-add-btn { flex-shrink: 0; width: auto; padding: 6px 10px; font-size: 0.75rem; border-radius: 6px; }
 </style>
 </head>
@@ -398,6 +410,15 @@ body {
     <div class="btn-group" style="flex-direction:row">
       <button class="btn btn-primary btn-sm" style="flex:1" onclick="closeMockModal()">查看错题明细</button>
     </div>
+  </div>
+</div>
+
+<!-- Full question details: shared by results and the wrong book. -->
+<div class="modal-overlay" id="questionDetailModal" role="dialog" aria-modal="true" aria-labelledby="questionDetailTitle" onclick="if (event.target === this) closeQuestionDetail()">
+  <div class="modal question-detail">
+    <h3 id="questionDetailTitle">题目详情</h3>
+    <div class="question-detail-body" id="questionDetailBody" tabindex="0"></div>
+    <button class="btn btn-primary btn-sm" id="questionDetailClose" onclick="closeQuestionDetail()">关闭详情</button>
   </div>
 </div>
 
@@ -789,18 +810,46 @@ function nextGroup() {
   else startRandom();
 }
 
-function showQuestionDetail(q, correct) {
-  const letters = ['A','B','C','D'];
-  const lines = [q.question, ''];
-  letters.forEach(l => {
-    const marker = q.answer.includes(l) ? '✓' : ' ';
-    lines.push(`${marker} ${l}. ${q.options[l]}`);
+let questionDetailOpener = null;
+function showQuestionDetail(q, correct, selectedAnswer = null) {
+  questionDetailOpener = document.activeElement;
+  const body = document.getElementById('questionDetailBody');
+  body.innerHTML = '';
+  const append = (className, text) => {
+    const el = document.createElement('div');
+    el.className = className;
+    el.textContent = text;
+    body.appendChild(el);
+  };
+  append('question-detail-meta', `${q.id} · ${q.categoryName} · ${(q.selectCount || 1) > 1 ? '多选题' : '单选题'}`);
+  append('question-detail-text', q.question);
+  ['A', 'B', 'C', 'D'].forEach(letter => {
+    const isCorrect = q.answer.includes(letter);
+    append(`detail-option${isCorrect ? ' correct' : ''}`, `${letter}. ${q.options[letter]}${isCorrect ? '（正确答案）' : ''}`);
   });
-  if (q.explanation) {
-    lines.push('', `—— 答案解释 ——`, q.explanation);
-  }
-  alert(lines.join('\n'));
+  append('question-detail-answer', `正确答案：${q.answer.split('').join('、')}`);
+  if (selectedAnswer !== null) append('question-detail-selection', `你的答案：${selectedAnswer ? selectedAnswer.split('').join('、') : '未作答'}`);
+  if (q.explanation) append('question-detail-explanation', `答案解析\n${q.explanation}`);
+  document.getElementById('questionDetailModal').classList.add('active');
+  body.scrollTop = 0;
+  document.getElementById('questionDetailClose').focus();
 }
+
+function closeQuestionDetail() {
+  document.getElementById('questionDetailModal').classList.remove('active');
+  if (questionDetailOpener) questionDetailOpener.focus();
+}
+
+document.addEventListener('keydown', event => {
+  if (!document.getElementById('questionDetailModal').classList.contains('active')) return;
+  if (event.key === 'Escape') closeQuestionDetail();
+  if (event.key === 'Tab') {
+    const body = document.getElementById('questionDetailBody');
+    const close = document.getElementById('questionDetailClose');
+    event.preventDefault();
+    (document.activeElement === close ? body : close).focus();
+  }
+});
 
 // --- Exit Exam ---
 function exitExam() {
@@ -906,12 +955,12 @@ function shuffleArr(arr) {
   return a;
 }
 
-// 分类轮转抽样：每个分类各出 1 题，不足再开第二轮，直到抽满 count
+// 分类及分类内题目都随机排序；每类各出 1 题，不足再开第二轮。
 function pickSpread(pool, count) {
   const queues = {};
   pool.forEach(q => { (queues[q.category] = queues[q.category] || []).push(q); });
   Object.keys(queues).forEach(c => { queues[c] = shuffleArr(queues[c]); });
-  const cats = Object.keys(queues).sort();
+  const cats = shuffleArr(Object.keys(queues));
   const out = [];
   let progressed = true;
   while (out.length < count && progressed) {
@@ -1120,7 +1169,7 @@ function renderMockResult() {
   const head = document.createElement('div');
   head.style.cssText = 'font-size:0.8rem;color:var(--text2);margin:10px 0 4px';
   head.textContent = wrongList.length
-    ? `错题编号（${wrongList.length} 题）· 点击查看详情，右侧按钮选择是否加入错题本`
+    ? `错题编号（${wrongList.length} 题）· 点击题目查看完整题目、正确答案和解析，右侧按钮加入错题本`
     : '全部答对，没有错题 🎉';
   list.appendChild(head);
 
@@ -1129,9 +1178,9 @@ function renderMockResult() {
     const item = document.createElement('div');
     item.className = 'result-item';
     item.innerHTML = `<span class="icon fail">✗</span>
-      <span class="mock-wrong-main">第${r.no}题 · ${r.q.id}${r.q.selectCount > 1 ? '（多选）' : ''}<br>
-      <span style="font-size:0.75rem;color:var(--text2)">${r.q.question.slice(0, 36)}${r.q.question.length > 36 ? '…' : ''}</span></span>`;
-    item.onclick = () => showQuestionDetail(r.q, false);
+      <button type="button" class="mock-wrong-main" aria-label="查看第${r.no}题详情">第${r.no}题 · ${r.q.id}${r.q.selectCount > 1 ? '（多选）' : ''}<br>
+      <span style="font-size:0.75rem;color:var(--text2)">${r.q.question.slice(0, 36)}${r.q.question.length > 36 ? '…' : ''}</span></button>`;
+    item.querySelector('.mock-wrong-main').onclick = () => showQuestionDetail(r.q, false, r.ans);
     const addBtn = document.createElement('button');
     addBtn.className = `btn ${inBook ? 'btn-accent' : 'btn-outline'} mock-add-btn`;
     addBtn.textContent = inBook ? '✓ 已加入' : '加入';
