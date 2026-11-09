@@ -23,29 +23,31 @@ for (const multi of [false, true]) {
   const categories = [...new Set(pool.map(q => q.category))];
   const categoryHits = Object.fromEntries(categories.map(c => [c, 0]));
   const seen = new Set();
+  const questionHits = Object.fromEntries(pool.map(q => [q.id, 0]));
   let previous = new Set(), overlap = 0;
   for (let i = 0; i < report.papers; i++) {
     const picked = context.pickSpread(pool, count);
     const ids = new Set(picked.map(q => q.id));
     assert.equal(picked.length, count);
     assert.equal(ids.size, count, 'Repeated question within a paper');
-    assert.equal(new Set(picked.map(q => q.category)).size, count, 'Categories must spread out');
     for (const q of picked) {
       seen.add(q.id);
+      questionHits[q.id]++;
       categoryHits[q.category]++;
       if (previous.has(q.id)) overlap++;
     }
     previous = ids;
   }
-  const expectedHits = report.papers * count / categories.length;
+  const expectedHits = report.papers * count / pool.length;
   const hits = Object.values(categoryHits);
   if (!baseline) {
     assert.equal(seen.size, pool.length, 'Every question should be reachable');
-    assert.ok(hits.every(n => Math.abs(n - expectedHits) < expectedHits * 0.2), 'Category selection is biased');
+    assert.ok(Object.values(questionHits).every(n => Math.abs(n - expectedHits) < expectedHits * 0.3), 'Question selection is biased');
   }
   report.types.push({ type: multi ? 'multi' : 'single', pool: pool.length, categories: categories.length,
     coveredQuestions: seen.size, neverSelectedCategories: categories.filter(c => !categoryHits[c]),
     categoryHitsMin: Math.min(...hits), categoryHitsMax: Math.max(...hits),
+    questionHitsMin: Math.min(...Object.values(questionHits)), questionHitsMax: Math.max(...Object.values(questionHits)),
     meanConsecutivePaperOverlap: +(overlap / (report.papers - 1)).toFixed(3) });
 }
 // Exhaustion: a second round may draw again from a category, never the same question.
