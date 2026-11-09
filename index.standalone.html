@@ -958,21 +958,9 @@ function shuffleArr(arr) {
   return a;
 }
 
-// 分类及分类内题目都随机排序；每类各出 1 题，不足再开第二轮。
+// 各题型池内等概率无放回抽题，避免小分类的题目出现过于频繁。
 function pickSpread(pool, count) {
-  const queues = {};
-  pool.forEach(q => { (queues[q.category] = queues[q.category] || []).push(q); });
-  Object.keys(queues).forEach(c => { queues[c] = shuffleArr(queues[c]); });
-  const cats = shuffleArr(Object.keys(queues));
-  const out = [];
-  let progressed = true;
-  while (out.length < count && progressed) {
-    progressed = false;
-    cats.forEach(c => {
-      if (out.length < count && queues[c].length) { out.push(queues[c].shift()); progressed = true; }
-    });
-  }
-  return out.slice(0, count);
+  return shuffleArr(pool).slice(0, count);
 }
 
 function startMockExam() {
